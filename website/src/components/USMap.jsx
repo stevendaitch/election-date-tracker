@@ -199,29 +199,29 @@ function USMap({ states, specialData }) {
       {/* Legend */}
       <div className="mt-4 flex flex-wrap justify-center gap-4 text-sm">
         <div className="flex items-center gap-2">
-          <div className="w-4 h-4 rounded" style={{ backgroundColor: "#ef4444" }}></div>
-          <span className="text-gray-600">&lt; 30 days</span>
+          <div className="w-4 h-4 rounded" style={{ backgroundColor: "#C65D3D" }}></div>
+          <span style={{ color: 'var(--brown-light)' }}>&lt; 30 days</span>
         </div>
         <div className="flex items-center gap-2">
-          <div className="w-4 h-4 rounded" style={{ backgroundColor: "#f97316" }}></div>
-          <span className="text-gray-600">30-60 days</span>
+          <div className="w-4 h-4 rounded" style={{ backgroundColor: "#D4A574" }}></div>
+          <span style={{ color: 'var(--brown-light)' }}>30-60 days</span>
         </div>
         <div className="flex items-center gap-2">
-          <div className="w-4 h-4 rounded" style={{ backgroundColor: "#eab308" }}></div>
-          <span className="text-gray-600">60-90 days</span>
+          <div className="w-4 h-4 rounded" style={{ backgroundColor: "#8B7355" }}></div>
+          <span style={{ color: 'var(--brown-light)' }}>60-90 days</span>
         </div>
         <div className="flex items-center gap-2">
-          <div className="w-4 h-4 rounded" style={{ backgroundColor: "#22c55e" }}></div>
-          <span className="text-gray-600">90-180 days</span>
+          <div className="w-4 h-4 rounded" style={{ backgroundColor: "#3D7A52" }}></div>
+          <span style={{ color: 'var(--brown-light)' }}>90-180 days</span>
         </div>
         <div className="flex items-center gap-2">
-          <div className="w-4 h-4 rounded" style={{ backgroundColor: "#3b82f6" }}></div>
-          <span className="text-gray-600">&gt; 180 days</span>
+          <div className="w-4 h-4 rounded" style={{ backgroundColor: "#2D5A3D" }}></div>
+          <span style={{ color: 'var(--brown-light)' }}>&gt; 180 days</span>
         </div>
       </div>
 
       {/* Special elections note */}
-      <p className="mt-3 text-center text-xs text-gray-500">
+      <p className="mt-3 text-center text-xs" style={{ color: 'var(--brown-light)' }}>
         Special election data may be incomplete. Click a state for details and verification links.
       </p>
     </div>

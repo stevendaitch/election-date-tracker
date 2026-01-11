@@ -27,35 +27,73 @@ function App() {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-        <p className="text-gray-600">Loading election data...</p>
+      <div
+        className="min-h-screen flex items-center justify-center"
+        style={{ backgroundColor: 'var(--cream)' }}
+      >
+        <p style={{ color: 'var(--brown-light)' }}>Loading election data...</p>
       </div>
     )
   }
 
   if (!data) {
     return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-        <p className="text-red-600">Failed to load election data</p>
+      <div
+        className="min-h-screen flex items-center justify-center"
+        style={{ backgroundColor: 'var(--cream)' }}
+      >
+        <p style={{ color: 'var(--rust)' }}>Failed to load election data</p>
       </div>
     )
   }
 
   return (
     <BrowserRouter>
-      <div className="min-h-screen bg-gray-50">
-        <header className="bg-blue-900 text-white shadow-lg">
+      <div className="min-h-screen" style={{ backgroundColor: 'var(--cream)' }}>
+        <header
+          className="shadow-lg"
+          style={{ backgroundColor: 'var(--forest)' }}
+        >
           <div className="max-w-7xl mx-auto px-4 py-4">
             <div className="flex items-center justify-between">
-              <Link to="/" className="text-2xl font-bold hover:text-blue-200">
+              <Link
+                to="/"
+                className="text-2xl font-bold transition-colors"
+                style={{
+                  fontFamily: 'Playfair Display, serif',
+                  color: 'var(--cream)'
+                }}
+              >
                 Election Date Tracker
               </Link>
               <nav className="flex gap-6">
-                <Link to="/" className="hover:text-blue-200">All States</Link>
-                <Link to="/upcoming" className="hover:text-blue-200">Upcoming</Link>
+                <Link
+                  to="/"
+                  className="transition-colors uppercase tracking-wider text-sm font-medium"
+                  style={{ color: 'var(--cream)', opacity: 0.9 }}
+                >
+                  All States
+                </Link>
+                <Link
+                  to="/upcoming"
+                  className="transition-colors uppercase tracking-wider text-sm font-medium"
+                  style={{ color: 'var(--cream)', opacity: 0.9 }}
+                >
+                  Upcoming
+                </Link>
+                <a
+                  href="https://stevedait.ch"
+                  className="transition-colors uppercase tracking-wider text-sm font-medium"
+                  style={{ color: 'var(--amber)' }}
+                >
+                  stevedait.ch
+                </a>
               </nav>
             </div>
-            <p className="text-blue-200 text-sm mt-1">
+            <p
+              className="text-sm mt-1"
+              style={{ color: 'var(--amber)', opacity: 0.8 }}
+            >
               Data last updated: {data.metadata.generated_at.split('T')[0]}
             </p>
           </div>
@@ -69,21 +107,36 @@ function App() {
           </Routes>
         </main>
 
-        <footer className="bg-gray-800 text-gray-400 py-6 mt-12">
+        <footer
+          className="py-6 mt-12"
+          style={{ backgroundColor: 'var(--forest)' }}
+        >
           <div className="max-w-7xl mx-auto px-4 text-center text-sm">
-            <p>Regular election dates sourced from state statutes and Secretary of State websites.</p>
-            <p className="mt-1 text-gray-500">
+            <p style={{ color: 'var(--cream)', opacity: 0.9 }}>
+              Regular election dates sourced from state statutes and Secretary of State websites.
+            </p>
+            <p className="mt-1" style={{ color: 'var(--cream)', opacity: 0.7 }}>
               Special election data may be incomplete. Always verify with your{' '}
               <a
                 href="https://www.usa.gov/election-office"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-400 underline hover:text-gray-300"
+                className="underline"
+                style={{ color: 'var(--amber)' }}
               >
                 state election office
               </a>.
             </p>
-            <p className="mt-2">Built with React + Vite</p>
+            <p className="mt-3" style={{ color: 'var(--amber)', opacity: 0.8 }}>
+              A project by{' '}
+              <a
+                href="https://stevedait.ch"
+                className="underline"
+                style={{ color: 'var(--amber)' }}
+              >
+                Steve Daitch
+              </a>
+            </p>
           </div>
         </footer>
       </div>

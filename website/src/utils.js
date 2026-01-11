@@ -61,14 +61,14 @@ export function formatDateTimeline(dateStr) {
 }
 
 /**
- * Get color class based on days until election
+ * Get color based on days until election (National Parks palette)
  * @param {number} days - Days until election
  * @returns {string} Hex color code
  */
 export function getColorByDays(days) {
-  if (days <= 30) return "#ef4444"   // red - imminent
-  if (days <= 60) return "#f97316"   // orange - soon
-  if (days <= 90) return "#eab308"   // yellow - approaching
-  if (days <= 180) return "#22c55e"  // green - months away
-  return "#3b82f6"                    // blue - far out
+  if (days <= 30) return "#C65D3D"   // rust - imminent
+  if (days <= 60) return "#D4A574"   // amber - soon
+  if (days <= 90) return "#8B7355"   // warm brown - approaching
+  if (days <= 180) return "#3D7A52"  // forest light - months away
+  return "#2D5A3D"                    // forest - far out
 }

@@ -7,42 +7,71 @@ function StateCard({ state, specialCount = 0 }) {
   const daysToNext = Math.min(primaryDays, generalDays)
 
   return (
-    <div className="bg-white rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow border-l-4 border-blue-600">
+    <div
+      className="rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow border-l-4"
+      style={{
+        backgroundColor: 'var(--cream-dark)',
+        borderLeftColor: 'var(--forest)'
+      }}
+    >
       <div className="flex items-center justify-between mb-2">
-        <h3 className="text-lg font-bold text-gray-800">
+        <h3
+          className="text-lg font-bold"
+          style={{
+            fontFamily: 'Playfair Display, serif',
+            color: 'var(--brown)'
+          }}
+        >
           {state.state_code}
         </h3>
         <div className="flex gap-1">
           {specialCount > 0 && (
-            <span className="bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded">
+            <span
+              className="text-xs px-2 py-1 rounded font-medium"
+              style={{
+                backgroundColor: 'var(--rust)',
+                color: 'var(--cream)'
+              }}
+            >
               {specialCount} Special
             </span>
           )}
-          <span className={`text-xs px-2 py-1 rounded ${
-            state.next_primary.confidence === 'High'
-              ? 'bg-green-100 text-green-800'
-              : 'bg-yellow-100 text-yellow-800'
-          }`}>
+          <span
+            className="text-xs px-2 py-1 rounded font-medium"
+            style={{
+              backgroundColor: state.next_primary.confidence === 'High' ? 'var(--forest)' : 'var(--amber)',
+              color: 'var(--cream)'
+            }}
+          >
             {state.next_primary.confidence}
           </span>
         </div>
       </div>
 
-      <p className="text-sm text-gray-600 mb-3">{state.state_name}</p>
+      <p className="text-sm mb-3" style={{ color: 'var(--brown-light)' }}>
+        {state.state_name}
+      </p>
 
       <div className="space-y-2 text-sm">
         <div className="flex justify-between">
-          <span className="text-gray-500">Primary:</span>
-          <span className="font-medium">{formatDate(state.next_primary.date)}</span>
+          <span style={{ color: 'var(--brown-light)' }}>Primary:</span>
+          <span className="font-medium" style={{ color: 'var(--brown)' }}>
+            {formatDate(state.next_primary.date)}
+          </span>
         </div>
         <div className="flex justify-between">
-          <span className="text-gray-500">General:</span>
-          <span className="font-medium">{formatDate(state.next_general.date)}</span>
+          <span style={{ color: 'var(--brown-light)' }}>General:</span>
+          <span className="font-medium" style={{ color: 'var(--brown)' }}>
+            {formatDate(state.next_general.date)}
+          </span>
         </div>
       </div>
 
-      <div className="mt-3 pt-3 border-t border-gray-100">
-        <p className="text-xs text-gray-500">
+      <div
+        className="mt-3 pt-3 border-t"
+        style={{ borderColor: 'var(--amber-light)' }}
+      >
+        <p className="text-xs" style={{ color: 'var(--brown-light)' }}>
           {daysToNext} days until {nextElection}
         </p>
       </div>
