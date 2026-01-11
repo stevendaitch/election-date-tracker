@@ -1,0 +1,55 @@
+name: Update Election Data
+
+on:
+  schedule:
+    # Run every Monday at 6 AM UTC
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+    # Allow manual triggering
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          cd scraper
+          pip install -r requirements.txt
+
+      - name: Run election date scraper
+        run: |
+          cd scraper
+          python validate.py
+
+      - name: Run special elections validator
+        run: |
+          cd scraper
+          python validate_specials.py
+
+      - name: Copy data to website
+        run: |
+          cp scraper/data/election_dates.json website/public/
+          cp scraper/data/special_elections.json website/public/
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet website/public/*.json || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push changes
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add website/public/*.json
+          git commit -m "Update election data $(date +'%Y-%m-%d')"
+          git push

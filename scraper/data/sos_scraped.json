@@ -1,0 +1,601 @@
+{
+  "MI": {
+    "state_code": "MI",
+    "state_name": "Michigan",
+    "sos_url": "https://www.michigan.gov/sos/elections",
+    "calendar_url": "https://www.michigan.gov/sos/-/media/Project/Websites/sos/Election-Administrators/Election-Dates.pdf",
+    "calendar_type": "pdf",
+    "scraped_at": "2026-01-09T21:13:54.072487",
+    "dates_found": [],
+    "primary_date": "2026-08-04",
+    "general_date": "2026-11-03",
+    "scrape_status": "skipped_pdf",
+    "notes": "PDF calendar - using known dates instead",
+    "source": "known_dates"
+  },
+  "CA": {
+    "state_code": "CA",
+    "state_name": "California",
+    "sos_url": "https://www.sos.ca.gov/elections",
+    "calendar_url": "https://www.sos.ca.gov/elections/upcoming-elections",
+    "calendar_type": "html",
+    "scraped_at": "2026-01-09T21:13:54.072558",
+    "dates_found": [
+      {
+        "date": "2026-06-02",
+        "original": "June 2, 2026",
+        "context": "sh espa\u00f1ol Statewide Elections Primary Election - June 2, 2026 County Administered Elections 2025 County Adminis"
+      },
+      {
+        "date": "2025-11-04",
+        "original": "November 4, 2025",
+        "context": "ions Prior Elections Statewide Special Election - November 4, 2025 Prior Elections Elections Information Elections D"
+      }
+    ],
+    "primary_date": "2026-06-02",
+    "general_date": "2026-11-03",
+    "scrape_status": "completed",
+    "source": "partial_scrape_with_known"
+  },
+  "TX": {
+    "state_code": "TX",
+    "state_name": "Texas",
+    "sos_url": "https://www.sos.state.tx.us/elections/index.shtml",
+    "calendar_url": "https://www.sos.state.tx.us/elections/voter/important-election-dates.shtml",
+    "calendar_type": "html",
+    "scraped_at": "2026-01-09T21:13:56.360869",
+    "dates_found": [
+      {
+        "date": "2026-01-12",
+        "original": "January 12, 2026",
+        "context": "ant Election Dates Skip to Main Content Beginning January 12, 2026, in-person services for the Office of the Texas S"
+      },
+      {
+        "date": "2025-05-03",
+        "original": "May 3, 2025",
+        "context": "2025-2026 2025 2026 Important 2025 Election Dates May 3, 2025 - Uniform Election Date Authority Conducting Elec"
+      },
+      {
+        "date": "2024-05-03",
+        "original": "May 3, 2024",
+        "context": "ost candidate requirements 5 Form 1-20 Friday,    May 3, 2024 Deadline    to post notice of candidate filing de"
+      },
+      {
+        "date": "2024-12-16",
+        "original": "December 16, 2024",
+        "context": " notice of candidate filing deadline 1 Monday,    December 16, 2024 for local political subdivisions that have a firs"
+      },
+      {
+        "date": "2025-01-01",
+        "original": "January 1, 2025",
+        "context": "r Federal Post Card Application (FPCA) Wednesday, January 1, 2025* \u00c2 *First    day to apply does not move because o"
+      },
+      {
+        "date": "2025-01-15",
+        "original": "January 15, 2025",
+        "context": "local political subdivisions ONLY) 1 \u00c2 Wednesday, January 15, 2025 Last Day to File for Place on General Election Ba"
+      },
+      {
+        "date": "2025-02-14",
+        "original": "February 14, 2025",
+        "context": "r local    political subdivisions ONLY) 2 Friday, February 14, 2025 at 5:00 p.m. See note below relating to four-year"
+      },
+      {
+        "date": "2025-02-14",
+        "original": "February 14, 2025",
+        "context": "General Election or Election on a Measure Friday, February 14, 2025 Last Day to Register to Vote Thursday, April 3, 2"
+      },
+      {
+        "date": "2025-04-03",
+        "original": "April 3, 2025",
+        "context": "y 14, 2025 Last Day to Register to Vote Thursday, April 3, 2025 First Day of Early Voting by Personal Appearance "
+      },
+      {
+        "date": "2025-04-22",
+        "original": "April 22, 2025",
+        "context": "y of Early Voting by Personal Appearance Tuesday, April 22, 2025* *First business day after San Jacinto Day Last D"
+      },
+      {
+        "date": "2025-04-22",
+        "original": "April 22, 2025",
+        "context": "llot by Mail ( Received, not Postmarked) Tuesday, April 22, 2025 Last Day of Early Voting by Personal Appearance T"
+      },
+      {
+        "date": "2025-04-29",
+        "original": "April 29, 2025",
+        "context": "y of Early Voting by Personal Appearance Tuesday, April 29, 2025 Last day to Receive Ballot by Mail Saturday, May "
+      },
+      {
+        "date": "2025-05-03",
+        "original": "May 3, 2025",
+        "context": "2025 Last day to Receive Ballot by Mail Saturday, May 3, 2025 (election day) at 7:00 p.m. if carrier    envelop"
+      },
+      {
+        "date": "2025-05-05",
+        "original": "May 5, 2025",
+        "context": "carrier    envelope is not postmarked, OR Monday, May 5, 2025 (next business    day after Election Day) at 5:00"
+      },
+      {
+        "date": "2025-11-04",
+        "original": "November 4, 2025",
+        "context": " overseas or    military voter deadlines apply) 4 November 4, 2025 - Uniform    Election Date These    dates are sub"
+      },
+      {
+        "date": "2024-11-04",
+        "original": "November 4, 2024",
+        "context": "ost candidate requirements 5 Form 1-20 Monday,    November 4, 2024 \u00c2\u00a0First day    to apply for a ballot by mail usin"
+      },
+      {
+        "date": "2025-01-01",
+        "original": "January 1, 2025",
+        "context": "r Federal Post Card Application (FPCA) Wednesday, January 1, 2025* \u00c2 *First    day to apply does not move because o"
+      },
+      {
+        "date": "2025-06-20",
+        "original": "June 20, 2025",
+        "context": "st notice of candidate filing    deadline Friday, June 20, 2025* for local political subdivisions that    have a "
+      },
+      {
+        "date": "2025-07-19",
+        "original": "July 19, 2025",
+        "context": "   local political subdivisions ONLY) 1 Saturday, July 19, 2025 (\u201cfirst day\u201d does not move; office hours    not r"
+      },
+      {
+        "date": "2025-08-18",
+        "original": "August 18, 2025",
+        "context": "General Election or Election on a Measure Monday, August 18, 2025 Last Day to File for Place on General Election Ba"
+      },
+      {
+        "date": "2025-08-18",
+        "original": "August 18, 2025",
+        "context": "r local    political subdivisions ONLY) 2 Monday, August 18, 2025 at 5:00 p.m.      See note below relating to four"
+      },
+      {
+        "date": "2025-10-06",
+        "original": "October 6, 2025",
+        "context": "year terms 3 Last Day to Register to Vote Monday, October 6, 2025 First Day of Early Voting by Personal Appearance "
+      },
+      {
+        "date": "2025-10-20",
+        "original": "October 20, 2025",
+        "context": "ay of Early Voting by Personal Appearance Monday, October 20, 2025 (17th day before election day falls on    a Satur"
+      },
+      {
+        "date": "2025-10-24",
+        "original": "October 24, 2025",
+        "context": "allot by Mail ( Received, not Postmarked) Friday, October 24, 2025 Last Day of Early Voting by Personal Appearance F"
+      },
+      {
+        "date": "2025-10-31",
+        "original": "October 31, 2025",
+        "context": "ay of Early Voting by Personal Appearance Friday, October 31, 2025 Last day to Receive Ballot by Mail Tuesday, Novem"
+      },
+      {
+        "date": "2025-11-04",
+        "original": "November 4, 2025",
+        "context": " 2025 Last day to Receive Ballot by Mail Tuesday, November 4, 2025 (election day) at 7:00 p.m. if carrier    envelop"
+      },
+      {
+        "date": "2025-11-05",
+        "original": "November 5, 2025",
+        "context": "rier    envelope is not postmarked, OR Wednesday, November 5, 2025 (next    business day after Election Day) at 5:00"
+      },
+      {
+        "date": "2025-05-03",
+        "original": "May 3, 2025",
+        "context": "ies who do not have a first day to file:\u00c2 For the May 3, 2025 election, Wednesday,  January 15, 2025 is the dea"
+      },
+      {
+        "date": "2025-01-15",
+        "original": "January 15, 2025",
+        "context": " file:\u00c2 For the May 3, 2025 election, Wednesday,  January 15, 2025 is the deadline to post notice of candidate filin"
+      },
+      {
+        "date": "2025-11-04",
+        "original": "November 4, 2025",
+        "context": "first day to file for their candidates.\u00c2\u00a0 For the November 4, 2025 election, Saturday,  July 19, 2025 is the deadlin"
+      },
+      {
+        "date": "2025-07-19",
+        "original": "July 19, 2025",
+        "context": ".\u00c2\u00a0 For the November 4, 2025 election, Saturday,  July 19, 2025 is the deadline to post notice of candidate filin"
+      },
+      {
+        "date": "2025-05-03",
+        "original": "May 3, 2025",
+        "context": "olding local proposition  (measure) elections  on May 3, 2025. 2 Filing  deadlines:\u00a0 generally, the filing dead"
+      },
+      {
+        "date": "2025-05-03",
+        "original": "May 3, 2025",
+        "context": ". of the 57th day  before the election.\u00c2\u00a0 For the May 3, 2025  election, this is Friday, March 7, 2025.\u00c2\u00a0  For "
+      },
+      {
+        "date": "2025-03-07",
+        "original": "March 7, 2025",
+        "context": "\u00c2\u00a0 For the May 3, 2025  election, this is Friday, March 7, 2025.\u00c2\u00a0  For the November 4, 2025 election, this is Mo"
+      },
+      {
+        "date": "2025-11-04",
+        "original": "November 4, 2025",
+        "context": "ection, this is Friday, March 7, 2025.\u00c2\u00a0  For the November 4, 2025 election, this is Monday, September 8, 2025.\u00c2\u00a0 Se"
+      },
+      {
+        "date": "2025-09-08",
+        "original": "September 8, 2025",
+        "context": "or the November 4, 2025 election, this is Monday, September 8, 2025.\u00c2\u00a0 See Section 143.008 of the Code. 4 Different d"
+      },
+      {
+        "date": "2026-03-03",
+        "original": "March 3, 2026",
+        "context": " Your Elections pages when available. Tuesday,    March 3, 2026 - Primary Election First day to    file for a pla"
+      },
+      {
+        "date": "2025-09-09",
+        "original": "September 9, 2025",
+        "context": "ry ballot for precinct chair candidates. Tuesday, September 9, 2025\u00c2\u00a0\u00c2 First day to    file for all other candidates "
+      },
+      {
+        "date": "2025-11-08",
+        "original": "November 8, 2025",
+        "context": "dates to file    declaration of intent. Saturday, November 8, 2025 Filing deadline for primary candidates;    filing"
+      },
+      {
+        "date": "2025-12-08",
+        "original": "December 8, 2025",
+        "context": "candidates to file declaration of intent. Monday, December 8, 2025 at 6:00    PM\u00c2\u00a0\u00c2 First day to apply for a ballot "
+      },
+      {
+        "date": "2026-01-01",
+        "original": "January 1, 2026",
+        "context": "Federal Postcard    Application (FPCA). Thursday, January 1, 2026*\u00c2 *First day to file does not move    because of "
+      },
+      {
+        "date": "2026-02-02",
+        "original": "February 2, 2026",
+        "context": "y election.\u00c2 Last Day to Register to Vote Monday, February 2, 2026 First Day of Early Voting Tuesday, February 17, 2"
+      },
+      {
+        "date": "2026-02-17",
+        "original": "February 17, 2026",
+        "context": "bruary 2, 2026 First Day of Early Voting Tuesday, February 17, 2026* *First business day after    President's Day Las"
+      },
+      {
+        "date": "2026-02-20",
+        "original": "February 20, 2026",
+        "context": "  Mail\n      ( Received , not Postmarked) Friday, February 20, 2026 Last Day of Early Voting Friday, February 27, 202"
+      },
+      {
+        "date": "2026-02-27",
+        "original": "February 27, 2026",
+        "context": "ebruary 20, 2026 Last Day of Early Voting Friday, February 27, 2026\u00c2 Last day to Receive Ballot by Mail Tuesday, Marc"
+      },
+      {
+        "date": "2026-03-03",
+        "original": "March 3, 2026",
+        "context": "2026\u00c2 Last day to Receive Ballot by Mail Tuesday, March 3, 2026 (Election    Day) at 7:00 p.m. if carrier envelop"
+      },
+      {
+        "date": "2026-03-04",
+        "original": "March 4, 2026",
+        "context": "rier envelope is not postmarked, OR Wednesday,    March 4, 2026 (next business day after Election Day) at 5:00 p."
+      },
+      {
+        "date": "2026-05-02",
+        "original": "May 2, 2026",
+        "context": " military voter deadlines apply) 4 \u00c2 Saturday,    May 2, 2026 \u00e2\u0080\u0093 Uniform Election Date (Limited) Authority Con"
+      },
+      {
+        "date": "2025-05-02",
+        "original": "May 2, 2025",
+        "context": "o post candidate requirements 5 Form 1-20 Friday, May 2, 2025 Deadline to Post Notice of    Candidate Filing De"
+      },
+      {
+        "date": "2025-12-15",
+        "original": "December 15, 2025",
+        "context": "Non-County Political Subdivisions Only) 1 Monday, December 15, 2025 First Day to Apply for Ballot by    Mail Thursday"
+      },
+      {
+        "date": "2026-01-01",
+        "original": "January 1, 2026",
+        "context": "irst Day to Apply for Ballot by    Mail Thursday, January 1, 2026* *First day to file does not move    because of N"
+      },
+      {
+        "date": "2026-01-13",
+        "original": "January 13, 2026",
+        "context": "ter to Vote or Update Voter Registration Tuesday, January 13, 2026 First Day to File for a Place on    the General E"
+      },
+      {
+        "date": "2026-01-14",
+        "original": "January 14, 2026",
+        "context": "-County Political Subdivisions Only) 1 Wednesday, January 14, 2026 Last Day to Order General Election    or Special "
+      },
+      {
+        "date": "2026-02-13",
+        "original": "February 13, 2026",
+        "context": "ction    or Special Election on a Measure Friday, February 13, 2026\u00c2\u00a0 \u00c2 Last Day to File for a Place on    the Genera"
+      },
+      {
+        "date": "2026-02-13",
+        "original": "February 13, 2026",
+        "context": "Non-County Political Subdivisions Only) 2 Friday, February 13, 2026 at 5:00    p.m.\u00c2 See note below relating to    fo"
+      },
+      {
+        "date": "2026-02-17",
+        "original": "February 17, 2026",
+        "context": " Non-County Political Subdivisions Only) Tuesday, February 17, 2026 at 5:00    p.m.\u00c2 Last Day to Register to Vote Thu"
+      },
+      {
+        "date": "2026-04-02",
+        "original": "April 2, 2026",
+        "context": "0    p.m.\u00c2 Last Day to Register to Vote Thursday, April 2, 2026 \u00c2\u00a0\u00c2\u00a0\u00c2 First Day of Early Voting by    Personal Ap"
+      },
+      {
+        "date": "2026-04-20",
+        "original": "April 20, 2026",
+        "context": "of Early Voting by    Personal Appearance Monday, April 20, 2026\u00c2\u00a0\u00c2\u00a0 \u00c2 Last Day to Apply for Ballot by    Mail ( R"
+      },
+      {
+        "date": "2026-04-20",
+        "original": "April 20, 2026",
+        "context": "ot by    Mail ( Received, not Postmarked) Monday, April 20, 2026 \u00c2\u00a0\u00c2 (deadline falls on San Jacinto    Day, moves "
+      },
+      {
+        "date": "2026-04-28",
+        "original": "April 28, 2026",
+        "context": "f Early Voting by    Personal Appearance Tuesday, April 28, 2026 \u00c2\u00a0\u00c2 Last day to Receive Ballot by Mail Saturday, "
+      },
+      {
+        "date": "2026-05-02",
+        "original": "May 2, 2026",
+        "context": " \u00c2\u00a0\u00c2 Last day to Receive Ballot by Mail Saturday, May 2, 2026 (Election    Day) at 7:00 p.m. if carrier envelop"
+      },
+      {
+        "date": "2026-05-04",
+        "original": "May 4, 2026",
+        "context": "carrier envelope is not postmarked, OR Monday,    May 4, 2026 (next business day after Election Day) at 5:00 p."
+      },
+      {
+        "date": "2026-05-26",
+        "original": "May 26, 2026",
+        "context": "r military voter deadlines apply) 4 \u00c2 Tuesday,    May 26, 2026 \u00e2\u0080\u0093 Primary Runoff Election First day to apply fo"
+      },
+      {
+        "date": "2026-01-01",
+        "original": "January 1, 2026",
+        "context": " Federal Postcard    Application (FPCA) Thursday, January 1, 2026* *First day to file does not move    because of N"
+      },
+      {
+        "date": "2026-04-27",
+        "original": "April 27, 2026",
+        "context": "ry election. Last Day to Register to Vote Monday, April 27, 2026 Last Day to Apply by Mail ( Received, not Postmar"
+      },
+      {
+        "date": "2026-05-15",
+        "original": "May 15, 2026",
+        "context": "Apply by Mail ( Received, not Postmarked) Friday, May 15, 2026 First Day of Early Voting Monday, May 18, 2026 La"
+      },
+      {
+        "date": "2026-05-18",
+        "original": "May 18, 2026",
+        "context": "y, May 15, 2026 First Day of Early Voting Monday, May 18, 2026 Last Day of Early Voting Friday, May 22, 2026 Las"
+      },
+      {
+        "date": "2026-05-22",
+        "original": "May 22, 2026",
+        "context": "ay, May 18, 2026 Last Day of Early Voting Friday, May 22, 2026 Last Day to Receive Ballot by Mail Tuesday, May 2"
+      },
+      {
+        "date": "2026-05-26",
+        "original": "May 26, 2026",
+        "context": " 2026 Last Day to Receive Ballot by Mail Tuesday, May 26, 2026 (Election    Day) at 7:00 p.m. if carrier envelop"
+      },
+      {
+        "date": "2026-05-27",
+        "original": "May 27, 2026",
+        "context": "rier envelope is not postmarked, OR Wednesday,    May 27, 2026 (next business day after Election Day) at 5:00 p."
+      },
+      {
+        "date": "2026-11-03",
+        "original": "November 3, 2026",
+        "context": "military voter deadlines apply) 4 \u00c2\u00a0\u00c2 Tuesday,    November 3, 2026 - Uniform Election Date Deadline    to post candi"
+      },
+      {
+        "date": "2025-11-03",
+        "original": "November 3, 2025",
+        "context": "o post candidate requirements 5 Form 1-20 Monday, November 3, 2025 First Day to Apply for Ballot by    Mail Thursday"
+      },
+      {
+        "date": "2026-01-01",
+        "original": "January 1, 2026",
+        "context": "irst Day to Apply for Ballot by    Mail Thursday, January 1, 2026* *First day to file does not move    because of N"
+      },
+      {
+        "date": "2026-06-18",
+        "original": "June 18, 2026",
+        "context": "Non-County Political Subdivisions Only) Thursday, June 18, 2026 for local    political subdivisions that have a f"
+      },
+      {
+        "date": "2026-07-17",
+        "original": "July 17, 2026",
+        "context": "ster to Vote or Update Voter Registration Friday, July 17, 2026 First Day to File for a Place on    the General E"
+      },
+      {
+        "date": "2026-07-18",
+        "original": "July 18, 2026",
+        "context": "n-County Political Subdivisions Only) 1 Saturday, July 18, 2026 First Day to File a Declaration of    Write-in Ca"
+      },
+      {
+        "date": "2026-07-20",
+        "original": "July 20, 2026",
+        "context": "l Election for State and County Officers) Monday, July 20, 2026 Last Day to Order General Election    or Special "
+      },
+      {
+        "date": "2026-08-17",
+        "original": "August 17, 2026",
+        "context": "ction    or Special Election on a Measure Monday, August 17, 2026 Last Day to File for a Place on    the General El"
+      },
+      {
+        "date": "2026-08-17",
+        "original": "August 17, 2026",
+        "context": "Non-County Political Subdivisions Only) 2 Monday, August 17, 2026 at 5:00    p.m.\u00c2\u00a0\u00c2 See    note below relating to "
+      },
+      {
+        "date": "2026-08-17",
+        "original": "August 17, 2026",
+        "context": "l Election for State and County Officers) Monday, August 17, 2026 Last Day to File a Declaration of    Write-in Can"
+      },
+      {
+        "date": "2026-08-21",
+        "original": "August 21, 2026",
+        "context": "l Non-County Political Subdivisions Only) Friday, August 21, 2026 Last Day to Register to Vote Monday, October 5, 2"
+      },
+      {
+        "date": "2026-10-05",
+        "original": "October 5, 2026",
+        "context": "ust 21, 2026 Last Day to Register to Vote Monday, October 5, 2026 First Day of Early Voting by    Personal Appearan"
+      },
+      {
+        "date": "2026-10-19",
+        "original": "October 19, 2026",
+        "context": "of Early Voting by    Personal Appearance Monday, October 19, 2026 Last Day to Apply for Ballot by    Mail\n      ( R"
+      },
+      {
+        "date": "2026-10-23",
+        "original": "October 23, 2026",
+        "context": "   Mail\n      ( Received,\u00a0not Postmarked) Friday, October 23, 2026 Last Day of Early Voting by    Personal Appearanc"
+      },
+      {
+        "date": "2026-10-30",
+        "original": "October 30, 2026",
+        "context": "of Early Voting by    Personal Appearance Friday, October 30, 2026 Last day to Receive Ballot by Mail Tuesday, Novem"
+      },
+      {
+        "date": "2026-11-03",
+        "original": "November 3, 2026",
+        "context": " 2026 Last day to Receive Ballot by Mail Tuesday, November 3, 2026 (Election    Day) at 7:00 p.m. if carrier envelop"
+      },
+      {
+        "date": "2026-11-04",
+        "original": "November 4, 2026",
+        "context": "rier envelope is not postmarked, OR Wednesday,    November 4, 2026 (next business day after Election Day) at 5:00 p."
+      },
+      {
+        "date": "2026-05-02",
+        "original": "May 2, 2026",
+        "context": "s who do not have a first day to  file:\u00c2\u00a0 For the May 2, 2026 election,  Wednesday, January 14, 2026 is the dea"
+      },
+      {
+        "date": "2026-01-14",
+        "original": "January 14, 2026",
+        "context": "file:\u00c2\u00a0 For the May 2, 2026 election,  Wednesday, January 14, 2026 is the deadline to post notice of candidate filin"
+      },
+      {
+        "date": "2026-11-03",
+        "original": "November 3,  2026",
+        "context": "irst day to file  for their candidates.\u00c2\u00a0 For the November 3,  2026 election, Saturday, July 18, 2026 is the deadline"
+      },
+      {
+        "date": "2026-07-18",
+        "original": "July 18, 2026",
+        "context": ".\u00c2\u00a0 For the November 3,  2026 election, Saturday, July 18, 2026 is the deadline to post notice of  candidate fili"
+      },
+      {
+        "date": "2026-05-02",
+        "original": "May 2, 2026",
+        "context": "m. of the 57th day  before the election.\u00a0 For the May 2, 2026 election, this is Friday, March 6,  2026. See Sec"
+      },
+      {
+        "date": "2026-03-06",
+        "original": "March 6,  2026",
+        "context": "n.\u00a0 For the May 2, 2026 election, this is Friday, March 6,  2026. See Section 143.008 of the Election Code.\u00c2 4 Dif"
+      }
+    ],
+    "primary_date": "2026-03-03",
+    "general_date": "2026-01-13",
+    "scrape_status": "completed",
+    "source": "scraped"
+  },
+  "FL": {
+    "state_code": "FL",
+    "state_name": "Florida",
+    "sos_url": "https://dos.fl.gov/elections/",
+    "calendar_url": "https://dos.fl.gov/elections/for-voters/election-dates/",
+    "calendar_type": "html",
+    "scraped_at": "2026-01-09T21:13:59.270650",
+    "dates_found": [
+      {
+        "date": "2025-08-22",
+        "original": "August 22, 2025",
+        "context": "ection Dates Election Dates Webpage last updated: August 22, 2025 Elections A primary election is held 11 weeks bef"
+      },
+      {
+        "date": "2026-07-04",
+        "original": "July 4, 2026",
+        "context": "ne to send vote-by-mail ballots to UOCAVA voters: July 4, 2026 Deadline to send vote-by-mail ballots to domestic"
+      },
+      {
+        "date": "2026-07-20",
+        "original": "July 20, 2026",
+        "context": " to register to vote or change party affiliation: July 20, 2026 Deadline to request that ballot be mailed: August"
+      },
+      {
+        "date": "2026-08-06",
+        "original": "August 6, 2026",
+        "context": ", 2026 Deadline to request that ballot be mailed: August 6, 2026 Early voting period (mandatory period): August 8 "
+      },
+      {
+        "date": "2026-08-18",
+        "original": "August 18, 2026",
+        "context": "for optional days of early voting) Election Day: \u00a0August 18, 2026 General Election 2026 Deadline to send vote-by-ma"
+      },
+      {
+        "date": "2026-09-19",
+        "original": "September 19, 2026",
+        "context": "ne to send vote-by-mail ballots to UOCAVA voters: September 19, 2026 Deadline to send vote-by-mail ballots to domestic"
+      },
+      {
+        "date": "2026-09-24",
+        "original": "September 24 2026",
+        "context": "to send vote-by-mail ballots to domestic voters: \u00a0September 24 2026 \u2013 October 1, 2026 Deadline to register to vote: \u00a0"
+      },
+      {
+        "date": "2026-10-01",
+        "original": "October 1, 2026",
+        "context": " ballots to domestic voters: \u00a0September 24 2026 \u2013 October 1, 2026 Deadline to register to vote: \u00a0October 5, 2026 De"
+      },
+      {
+        "date": "2026-10-05",
+        "original": "October 5, 2026",
+        "context": " \u2013 October 1, 2026 Deadline to register to vote: \u00a0October 5, 2026 Deadline to request that ballot be mailed: Octobe"
+      },
+      {
+        "date": "2026-10-22",
+        "original": "October 22, 2026",
+        "context": ", 2026 Deadline to request that ballot be mailed: October 22, 2026 Early voting period (mandatory period): \u00a0October "
+      },
+      {
+        "date": "2026-11-03",
+        "original": "November 3, 2026",
+        "context": "for optional days of early voting) Election Day: \u00a0November 3, 2026 Key Election Results Reporting Timeline Primary E"
+      }
+    ],
+    "primary_date": "2026-11-03",
+    "general_date": "2026-08-18",
+    "scrape_status": "completed",
+    "source": "scraped"
+  },
+  "OH": {
+    "state_code": "OH",
+    "state_name": "Ohio",
+    "sos_url": "https://www.ohiosos.gov/elections/",
+    "calendar_url": "https://www.ohiosos.gov/elections/voters/current-voting-schedule/2026-schedule/",
+    "calendar_type": "html",
+    "scraped_at": "2026-01-09T21:14:01.576572",
+    "dates_found": [],
+    "primary_date": "2026-05-05",
+    "general_date": "2026-11-03",
+    "scrape_status": "fetch_failed",
+    "source": "known_dates_fallback"
+  }
+}

@@ -1,0 +1,51 @@
+state_code,state_name,sos_url,elections_url,special_elections_path,notes
+AL,Alabama,https://www.sos.alabama.gov/,https://www.sos.alabama.gov/alabama-votes,/alabama-votes/voter,Standard structure
+AK,Alaska,https://www.elections.alaska.gov/,https://www.elections.alaska.gov/,/Core/prior-elections-information,Division of Elections
+AZ,Arizona,https://azsos.gov/,https://azsos.gov/elections,,Check /elections
+AR,Arkansas,https://www.sos.arkansas.gov/,https://www.sos.arkansas.gov/elections,,Standard structure
+CA,California,https://www.sos.ca.gov/,https://www.sos.ca.gov/elections,,Excellent structure
+CO,Colorado,https://www.sos.state.co.us/,https://www.sos.state.co.us/pubs/elections/,,Standard structure
+CT,Connecticut,https://portal.ct.gov/SOTS,https://portal.ct.gov/SOTS/Election-Services,,Check election services
+DE,Delaware,https://elections.delaware.gov/,https://elections.delaware.gov/,,Department of Elections
+FL,Florida,https://dos.myflorida.com/,https://dos.myflorida.com/elections/,,Division of Elections
+GA,Georgia,https://sos.ga.gov/,https://sos.ga.gov/elections,,Standard structure
+HI,Hawaii,https://elections.hawaii.gov/,https://elections.hawaii.gov/,,Office of Elections
+ID,Idaho,https://sos.idaho.gov/,https://sos.idaho.gov/elections/,,Standard structure
+IL,Illinois,https://www.elections.il.gov/,https://www.elections.il.gov/,,State Board of Elections
+IN,Indiana,https://www.in.gov/sos/,https://www.in.gov/sos/elections/,,Standard structure
+IA,Iowa,https://sos.iowa.gov/,https://sos.iowa.gov/elections/,,Standard structure
+KS,Kansas,https://sos.ks.gov/,https://sos.ks.gov/elections/,,Standard structure
+KY,Kentucky,https://elect.ky.gov/,https://elect.ky.gov/,,State Board of Elections
+LA,Louisiana,https://www.sos.la.gov/,https://www.sos.la.gov/ElectionsAndVoting,,Has dedicated elections section
+ME,Maine,https://www.maine.gov/sos/,https://www.maine.gov/sos/cec/elec/,,Bureau of Corporations Elections and Commissions
+MD,Maryland,https://elections.maryland.gov/,https://elections.maryland.gov/,,State Board of Elections
+MA,Massachusetts,https://www.sec.state.ma.us/,https://www.sec.state.ma.us/divisions/elections/,,Elections Division
+MI,Michigan,https://mvic.sos.state.mi.us/,https://mvic.sos.state.mi.us/,,Michigan Voter Information Center
+MN,Minnesota,https://www.sos.state.mn.us/,https://www.sos.state.mn.us/elections-voting/,,Standard structure
+MS,Mississippi,https://www.sos.ms.gov/,https://www.sos.ms.gov/elections-voting,,Standard structure
+MO,Missouri,https://www.sos.mo.gov/,https://www.sos.mo.gov/elections,,Standard structure
+MT,Montana,https://sosmt.gov/,https://sosmt.gov/elections/,,Standard structure
+NE,Nebraska,https://sos.nebraska.gov/,https://sos.nebraska.gov/elections,,Standard structure
+NV,Nevada,https://www.nvsos.gov/,https://www.nvsos.gov/sos/elections,,Standard structure
+NH,New Hampshire,https://www.sos.nh.gov/,https://www.sos.nh.gov/elections,,Standard structure
+NJ,New Jersey,https://nj.gov/state/,https://nj.gov/state/elections/,,Division of Elections
+NM,New Mexico,https://www.sos.nm.gov/,https://www.sos.nm.gov/voting-and-elections/,,Standard structure
+NY,New York,https://www.elections.ny.gov/,https://www.elections.ny.gov/,,State Board of Elections
+NC,North Carolina,https://www.ncsbe.gov/,https://www.ncsbe.gov/,,State Board of Elections
+ND,North Dakota,https://sos.nd.gov/,https://sos.nd.gov/elections/,,Standard structure
+OH,Ohio,https://www.ohiosos.gov/,https://www.ohiosos.gov/elections-voting/,,Standard structure
+OK,Oklahoma,https://oklahoma.gov/elections.html,https://oklahoma.gov/elections.html,,State Election Board
+OR,Oregon,https://sos.oregon.gov/,https://sos.oregon.gov/voting-elections/,,Standard structure
+PA,Pennsylvania,https://www.dos.pa.gov/,https://www.vote.pa.gov/,,Department of State
+RI,Rhode Island,https://vote.ri.gov/,https://vote.ri.gov/,,Board of Elections
+SC,South Carolina,https://scvotes.gov/,https://scvotes.gov/,,State Election Commission
+SD,South Dakota,https://sdsos.gov/,https://sdsos.gov/elections-voting/,,Standard structure
+TN,Tennessee,https://sos.tn.gov/,https://sos.tn.gov/elections,,Standard structure
+TX,Texas,https://www.sos.texas.gov/,https://www.sos.texas.gov/elections/,,Excellent structure
+UT,Utah,https://voteinfo.utah.gov/,https://voteinfo.utah.gov/,,Lieutenant Governor runs elections
+VT,Vermont,https://sos.vermont.gov/,https://sos.vermont.gov/elections/,,Standard structure
+VA,Virginia,https://www.elections.virginia.gov/,https://www.elections.virginia.gov/,,Department of Elections
+WA,Washington,https://www.sos.wa.gov/,https://www.sos.wa.gov/elections/,,Standard structure
+WV,West Virginia,https://sos.wv.gov/,https://sos.wv.gov/elections/,,Standard structure
+WI,Wisconsin,https://elections.wi.gov/,https://elections.wi.gov/,,Elections Commission
+WY,Wyoming,https://sos.wyo.gov/,https://sos.wyo.gov/Elections/,,Standard structure

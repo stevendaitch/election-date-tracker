@@ -1,0 +1,79 @@
+{
+  "TX": {
+    "state_name": "Texas",
+    "elections_found": 0,
+    "elections": [],
+    "status": "error",
+    "base_url": "https://www.sos.texas.gov/elections/"
+  },
+  "MI": {
+    "state_name": "Michigan",
+    "elections_found": 0,
+    "elections": [],
+    "status": "error",
+    "base_url": "https://mvic.sos.state.mi.us/"
+  },
+  "MN": {
+    "state_name": "Minnesota",
+    "elections_found": 0,
+    "elections": [],
+    "status": "success",
+    "base_url": "https://www.sos.state.mn.us/elections-voting/"
+  },
+  "PA": {
+    "state_name": "Pennsylvania",
+    "elections_found": 0,
+    "elections": [],
+    "status": "success",
+    "base_url": "https://www.vote.pa.gov/"
+  },
+  "GA": {
+    "state_name": "Georgia",
+    "elections_found": 0,
+    "elections": [],
+    "status": "error",
+    "base_url": "https://sos.ga.gov/"
+  },
+  "OH": {
+    "state_name": "Ohio",
+    "elections_found": 0,
+    "elections": [],
+    "status": "error",
+    "base_url": "https://www.ohiosos.gov/elections-voting/"
+  },
+  "FL": {
+    "state_name": "Florida",
+    "elections_found": 0,
+    "elections": [],
+    "status": "success",
+    "base_url": "https://dos.myflorida.com/elections/"
+  },
+  "CA": {
+    "state_name": "California",
+    "elections_found": 0,
+    "elections": [],
+    "status": "success",
+    "base_url": "https://www.sos.ca.gov/elections/"
+  },
+  "NY": {
+    "state_name": "New York",
+    "elections_found": 0,
+    "elections": [],
+    "status": "error",
+    "base_url": "https://www.elections.ny.gov/"
+  },
+  "NJ": {
+    "state_name": "New Jersey",
+    "elections_found": 0,
+    "elections": [],
+    "status": "success",
+    "base_url": "https://nj.gov/state/elections/"
+  },
+  "AL": {
+    "state_name": "Alabama",
+    "elections_found": 0,
+    "elections": [],
+    "status": "error",
+    "base_url": "https://www.sos.alabama.gov/alabama-votes"
+  }
+}

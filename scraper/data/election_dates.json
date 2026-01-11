@@ -1,0 +1,1660 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "generated_at": "2026-01-09T21:42:26.733215",
+    "description": "Election dates for US states, validated against statutes and SOS websites",
+    "year": 2026
+  },
+  "states": [
+    {
+      "state_code": "AL",
+      "state_name": "Alabama",
+      "next_primary": {
+        "date": "2026-05-19",
+        "date_rule": "Fourth Tuesday in May",
+        "type": "state_primary",
+        "statute_reference": "Ala. Code 17-13-3",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "Ala. Code 17-13-3",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "Ala. Code 17-13-3",
+          "url": "https://www.sos.alabama.gov/alabama-votes/voter/election-information",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "May primary for state offices"
+    },
+    {
+      "state_code": "AK",
+      "state_name": "Alaska",
+      "next_primary": {
+        "date": "2026-08-18",
+        "date_rule": "Third Tuesday in August",
+        "type": "state_primary",
+        "statute_reference": "Alaska Stat. 15.25.020",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "Alaska Stat. 15.25.020",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "Alaska Stat. 15.25.020",
+          "url": "https://www.elections.alaska.gov/",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "Top-four primary system"
+    },
+    {
+      "state_code": "AZ",
+      "state_name": "Arizona",
+      "next_primary": {
+        "date": "2026-08-04",
+        "date_rule": "First Tuesday in August",
+        "type": "state_primary",
+        "statute_reference": "A.R.S. 16-201",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "A.R.S. 16-201",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "A.R.S. 16-201",
+          "url": "https://azsos.gov/elections",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "August primary"
+    },
+    {
+      "state_code": "AR",
+      "state_name": "Arkansas",
+      "next_primary": {
+        "date": "2026-03-03",
+        "date_rule": "First Tuesday in March",
+        "type": "state_primary",
+        "statute_reference": "Ark. Code 7-7-203",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "Ark. Code 7-7-203",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "Ark. Code 7-7-203",
+          "url": "https://www.sos.arkansas.gov/elections",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "March primary"
+    },
+    {
+      "state_code": "CA",
+      "state_name": "California",
+      "next_primary": {
+        "date": "2026-06-02",
+        "date_rule": "First Tuesday after first Monday in June (direct primary)",
+        "type": "state_primary",
+        "statute_reference": "Cal. Elec. Code 1000-1001",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "Cal. Elec. Code 1000-1001",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "Cal. Elec. Code 1000-1001",
+          "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=ELEC&sectionNum=1000",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        },
+        {
+          "type": "sos_website",
+          "url": "https://www.sos.ca.gov/elections",
+          "calendar_url": "https://www.sos.ca.gov/elections/upcoming-elections",
+          "last_verified": "2026-01-09"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "Top-two primary for statewide offices"
+    },
+    {
+      "state_code": "CO",
+      "state_name": "Colorado",
+      "next_primary": {
+        "date": "2026-06-30",
+        "date_rule": "Last Tuesday in June",
+        "type": "state_primary",
+        "statute_reference": "C.R.S. 1-4-101",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "C.R.S. 1-4-101",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "C.R.S. 1-4-101",
+          "url": "https://www.coloradosos.gov/pubs/elections/",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "June primary"
+    },
+    {
+      "state_code": "CT",
+      "state_name": "Connecticut",
+      "next_primary": {
+        "date": "2026-08-11",
+        "date_rule": "Second Tuesday in August",
+        "type": "state_primary",
+        "statute_reference": "Conn. Gen. Stat. 9-56",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "Conn. Gen. Stat. 9-56",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "Conn. Gen. Stat. 9-56",
+          "url": "https://portal.ct.gov/sots/election-services",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "August primary"
+    },
+    {
+      "state_code": "DE",
+      "state_name": "Delaware",
+      "next_primary": {
+        "date": "2026-09-15",
+        "date_rule": "Third Tuesday in September",
+        "type": "state_primary",
+        "statute_reference": "15 Del. C. 3101",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "15 Del. C. 3101",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "15 Del. C. 3101",
+          "url": "https://elections.delaware.gov/",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "September primary"
+    },
+    {
+      "state_code": "FL",
+      "state_name": "Florida",
+      "next_primary": {
+        "date": "2026-08-18",
+        "date_rule": "Third Tuesday in August in each even-numbered year",
+        "type": "state_primary",
+        "statute_reference": "Fla. Stat. 100.061",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "Fla. Stat. 100.061",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "Fla. Stat. 100.061",
+          "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0100-0199/0100/Sections/0100.061.html",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        },
+        {
+          "type": "sos_website",
+          "url": "https://dos.fl.gov/elections/",
+          "calendar_url": "https://dos.fl.gov/elections/for-voters/election-dates/",
+          "last_verified": "2026-01-09"
+        }
+      ],
+      "validation": {
+        "status": "discrepancy_resolved",
+        "discrepancies": [
+          {
+            "field": "primary_date",
+            "statute_value": "2026-08-18",
+            "sos_value": "2026-11-03",
+            "resolution": "Using statute value (authoritative)"
+          },
+          {
+            "field": "general_date",
+            "statute_value": "2026-11-03",
+            "sos_value": "2026-08-18",
+            "resolution": "Using statute value (authoritative)"
+          }
+        ]
+      },
+      "last_updated": "2026-01-09",
+      "notes": "Primary election date specified in statute"
+    },
+    {
+      "state_code": "GA",
+      "state_name": "Georgia",
+      "next_primary": {
+        "date": "2026-05-19",
+        "date_rule": "Third Tuesday in May",
+        "type": "state_primary",
+        "statute_reference": "O.C.G.A. 21-2-150",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "O.C.G.A. 21-2-150",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "O.C.G.A. 21-2-150",
+          "url": "https://sos.ga.gov/elections",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "May primary; runoff if needed"
+    },
+    {
+      "state_code": "HI",
+      "state_name": "Hawaii",
+      "next_primary": {
+        "date": "2026-08-08",
+        "date_rule": "Second Saturday in August",
+        "type": "state_primary",
+        "statute_reference": "HRS 12-2",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "HRS 12-2",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "HRS 12-2",
+          "url": "https://elections.hawaii.gov/",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "August primary"
+    },
+    {
+      "state_code": "ID",
+      "state_name": "Idaho",
+      "next_primary": {
+        "date": "2026-05-19",
+        "date_rule": "Third Tuesday in May",
+        "type": "state_primary",
+        "statute_reference": "Idaho Code 34-601",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "Idaho Code 34-601",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "Idaho Code 34-601",
+          "url": "https://sos.idaho.gov/elections/",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "May primary"
+    },
+    {
+      "state_code": "IL",
+      "state_name": "Illinois",
+      "next_primary": {
+        "date": "2026-03-17",
+        "date_rule": "Third Tuesday in March",
+        "type": "state_primary",
+        "statute_reference": "10 ILCS 5/2A-1.1",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "10 ILCS 5/2A-1.1",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "10 ILCS 5/2A-1.1",
+          "url": "https://www.elections.il.gov/",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "March primary"
+    },
+    {
+      "state_code": "IN",
+      "state_name": "Indiana",
+      "next_primary": {
+        "date": "2026-05-05",
+        "date_rule": "First Tuesday after first Monday in May",
+        "type": "state_primary",
+        "statute_reference": "Ind. Code 3-10-1-3",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "Ind. Code 3-10-1-3",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "Ind. Code 3-10-1-3",
+          "url": "https://www.in.gov/sos/elections/",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "May primary"
+    },
+    {
+      "state_code": "IA",
+      "state_name": "Iowa",
+      "next_primary": {
+        "date": "2026-06-02",
+        "date_rule": "First Tuesday in June",
+        "type": "state_primary",
+        "statute_reference": "Iowa Code 43.7",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "Iowa Code 43.7",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "Iowa Code 43.7",
+          "url": "https://sos.iowa.gov/elections/",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "June primary"
+    },
+    {
+      "state_code": "KS",
+      "state_name": "Kansas",
+      "next_primary": {
+        "date": "2026-08-04",
+        "date_rule": "First Tuesday in August",
+        "type": "state_primary",
+        "statute_reference": "K.S.A. 25-203",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "K.S.A. 25-203",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "K.S.A. 25-203",
+          "url": "https://sos.ks.gov/elections/",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "August primary"
+    },
+    {
+      "state_code": "KY",
+      "state_name": "Kentucky",
+      "next_primary": {
+        "date": "2026-05-19",
+        "date_rule": "Third Tuesday in May",
+        "type": "state_primary",
+        "statute_reference": "KRS 118.025",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "KRS 118.025",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "KRS 118.025",
+          "url": "https://elect.ky.gov/",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "May primary"
+    },
+    {
+      "state_code": "LA",
+      "state_name": "Louisiana",
+      "next_primary": {
+        "date": "2026-05-16",
+        "date_rule": "Congressional primary in May; state offices in odd years",
+        "type": "state_primary",
+        "statute_reference": "La. R.S. 18:402",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "La. R.S. 18:402",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "La. R.S. 18:402",
+          "url": "https://www.sos.la.gov/ElectionsAndVoting/",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "Congressional primary only in 2026"
+    },
+    {
+      "state_code": "ME",
+      "state_name": "Maine",
+      "next_primary": {
+        "date": "2026-06-09",
+        "date_rule": "Second Tuesday in June",
+        "type": "state_primary",
+        "statute_reference": "21-A M.R.S. 341",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "21-A M.R.S. 341",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "21-A M.R.S. 341",
+          "url": "https://www.maine.gov/sos/cec/elec/",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "June primary; uses ranked choice voting"
+    },
+    {
+      "state_code": "MD",
+      "state_name": "Maryland",
+      "next_primary": {
+        "date": "2026-06-23",
+        "date_rule": "Fourth Tuesday in June",
+        "type": "state_primary",
+        "statute_reference": "Md. Election Law 8-201",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "Md. Election Law 8-201",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "Md. Election Law 8-201",
+          "url": "https://elections.maryland.gov/",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "June primary"
+    },
+    {
+      "state_code": "MA",
+      "state_name": "Massachusetts",
+      "next_primary": {
+        "date": "2026-09-01",
+        "date_rule": "First Tuesday after first Monday in September",
+        "type": "state_primary",
+        "statute_reference": "Mass. Gen. Laws ch. 53 sec. 28",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "Mass. Gen. Laws ch. 53 sec. 28",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "Mass. Gen. Laws ch. 53 sec. 28",
+          "url": "https://www.sec.state.ma.us/divisions/elections/",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "September primary"
+    },
+    {
+      "state_code": "MI",
+      "state_name": "Michigan",
+      "next_primary": {
+        "date": "2026-08-04",
+        "date_rule": "Tuesday after first Monday in August in even-numbered years",
+        "type": "state_primary",
+        "statute_reference": "MCL 168.534",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "MCL 168.534",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "MCL 168.534",
+          "url": "https://legislature.mi.gov/doc.aspx?mcl-168-534",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        },
+        {
+          "type": "sos_website",
+          "url": "https://www.michigan.gov/sos/elections",
+          "calendar_url": "https://www.michigan.gov/sos/-/media/Project/Websites/sos/Election-Administrators/Election-Dates.pdf",
+          "last_verified": "2026-01-09"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "State primary law specifies August timing"
+    },
+    {
+      "state_code": "MN",
+      "state_name": "Minnesota",
+      "next_primary": {
+        "date": "2026-08-11",
+        "date_rule": "Second Tuesday in August",
+        "type": "state_primary",
+        "statute_reference": "Minn. Stat. 204D.03",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "Minn. Stat. 204D.03",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "Minn. Stat. 204D.03",
+          "url": "https://www.sos.state.mn.us/elections-voting/",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "August primary"
+    },
+    {
+      "state_code": "MS",
+      "state_name": "Mississippi",
+      "next_primary": {
+        "date": "2026-03-10",
+        "date_rule": "Second Tuesday in March for congressional",
+        "type": "state_primary",
+        "statute_reference": "Miss. Code 23-15-191",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "Miss. Code 23-15-191",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "Miss. Code 23-15-191",
+          "url": "https://www.sos.ms.gov/elections-voting",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "Congressional primary only in 2026"
+    },
+    {
+      "state_code": "MO",
+      "state_name": "Missouri",
+      "next_primary": {
+        "date": "2026-08-04",
+        "date_rule": "First Tuesday in August",
+        "type": "state_primary",
+        "statute_reference": "Mo. Rev. Stat. 115.121",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "Mo. Rev. Stat. 115.121",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "Mo. Rev. Stat. 115.121",
+          "url": "https://www.sos.mo.gov/elections",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "August primary"
+    },
+    {
+      "state_code": "MT",
+      "state_name": "Montana",
+      "next_primary": {
+        "date": "2026-06-02",
+        "date_rule": "First Tuesday after first Monday in June",
+        "type": "state_primary",
+        "statute_reference": "Mont. Code 13-1-107",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "Mont. Code 13-1-107",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "Mont. Code 13-1-107",
+          "url": "https://sosmt.gov/elections/",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "June primary"
+    },
+    {
+      "state_code": "NE",
+      "state_name": "Nebraska",
+      "next_primary": {
+        "date": "2026-05-12",
+        "date_rule": "Second Tuesday in May",
+        "type": "state_primary",
+        "statute_reference": "Neb. Rev. Stat. 32-401",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "Neb. Rev. Stat. 32-401",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "Neb. Rev. Stat. 32-401",
+          "url": "https://sos.nebraska.gov/elections/",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "May primary; nonpartisan legislature"
+    },
+    {
+      "state_code": "NV",
+      "state_name": "Nevada",
+      "next_primary": {
+        "date": "2026-06-09",
+        "date_rule": "Second Tuesday in June",
+        "type": "state_primary",
+        "statute_reference": "NRS 293.175",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "NRS 293.175",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "NRS 293.175",
+          "url": "https://www.nvsos.gov/sos/elections",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "June primary"
+    },
+    {
+      "state_code": "NH",
+      "state_name": "New Hampshire",
+      "next_primary": {
+        "date": "2026-09-08",
+        "date_rule": "Second Tuesday in September",
+        "type": "state_primary",
+        "statute_reference": "N.H. RSA 653:8",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "N.H. RSA 653:8",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "N.H. RSA 653:8",
+          "url": "https://www.sos.nh.gov/elections",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "September primary"
+    },
+    {
+      "state_code": "NJ",
+      "state_name": "New Jersey",
+      "next_primary": {
+        "date": "2026-06-02",
+        "date_rule": "First Tuesday in June for congressional",
+        "type": "state_primary",
+        "statute_reference": "N.J.S.A. 19:23-40",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "N.J.S.A. 19:23-40",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "N.J.S.A. 19:23-40",
+          "url": "https://www.nj.gov/state/elections/",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "Congressional primary only in 2026"
+    },
+    {
+      "state_code": "NM",
+      "state_name": "New Mexico",
+      "next_primary": {
+        "date": "2026-06-02",
+        "date_rule": "First Tuesday in June",
+        "type": "state_primary",
+        "statute_reference": "N.M. Stat. 1-8-11",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "N.M. Stat. 1-8-11",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "N.M. Stat. 1-8-11",
+          "url": "https://www.sos.nm.gov/voting-and-elections/",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "June primary"
+    },
+    {
+      "state_code": "NY",
+      "state_name": "New York",
+      "next_primary": {
+        "date": "2026-06-23",
+        "date_rule": "Fourth Tuesday in June",
+        "type": "state_primary",
+        "statute_reference": "N.Y. Elec. Law 8-100",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "N.Y. Elec. Law 8-100",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "N.Y. Elec. Law 8-100",
+          "url": "https://www.elections.ny.gov/",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "June primary"
+    },
+    {
+      "state_code": "NC",
+      "state_name": "North Carolina",
+      "next_primary": {
+        "date": "2026-03-03",
+        "date_rule": "First Tuesday in March",
+        "type": "state_primary",
+        "statute_reference": "N.C.G.S. 163-1",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "N.C.G.S. 163-1",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "N.C.G.S. 163-1",
+          "url": "https://www.ncsbe.gov/",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "March primary; runoff if needed"
+    },
+    {
+      "state_code": "ND",
+      "state_name": "North Dakota",
+      "next_primary": {
+        "date": "2026-06-09",
+        "date_rule": "Second Tuesday in June",
+        "type": "state_primary",
+        "statute_reference": "N.D.C.C. 16.1-11-01",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "N.D.C.C. 16.1-11-01",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "N.D.C.C. 16.1-11-01",
+          "url": "https://vip.sos.nd.gov/",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "June primary"
+    },
+    {
+      "state_code": "OH",
+      "state_name": "Ohio",
+      "next_primary": {
+        "date": "2026-05-05",
+        "date_rule": "First Tuesday after first Monday in May",
+        "type": "state_primary",
+        "statute_reference": "Ohio Rev. Code 3501.01",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "Ohio Rev. Code 3501.01",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "Ohio Rev. Code 3501.01",
+          "url": "https://codes.ohio.gov/ohio-revised-code/section-3501.01",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        },
+        {
+          "type": "sos_website",
+          "url": "https://www.ohiosos.gov/elections/",
+          "calendar_url": "https://www.ohiosos.gov/elections/voters/current-voting-schedule/2026-schedule/",
+          "last_verified": "2026-01-09"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "May primary for state and federal offices"
+    },
+    {
+      "state_code": "OK",
+      "state_name": "Oklahoma",
+      "next_primary": {
+        "date": "2026-06-16",
+        "date_rule": "Third Tuesday in June",
+        "type": "state_primary",
+        "statute_reference": "26 O.S. 3-101",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "26 O.S. 3-101",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "26 O.S. 3-101",
+          "url": "https://oklahoma.gov/elections.html",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "June primary; runoff if needed"
+    },
+    {
+      "state_code": "OR",
+      "state_name": "Oregon",
+      "next_primary": {
+        "date": "2026-05-19",
+        "date_rule": "Third Tuesday in May",
+        "type": "state_primary",
+        "statute_reference": "ORS 254.056",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "ORS 254.056",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "ORS 254.056",
+          "url": "https://sos.oregon.gov/elections/",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "May primary; vote by mail"
+    },
+    {
+      "state_code": "PA",
+      "state_name": "Pennsylvania",
+      "next_primary": {
+        "date": "2026-05-19",
+        "date_rule": "Third Tuesday in May",
+        "type": "state_primary",
+        "statute_reference": "25 P.S. 2753",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "25 P.S. 2753",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "25 P.S. 2753",
+          "url": "https://www.vote.pa.gov/",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "May primary"
+    },
+    {
+      "state_code": "RI",
+      "state_name": "Rhode Island",
+      "next_primary": {
+        "date": "2026-09-08",
+        "date_rule": "Second Tuesday in September",
+        "type": "state_primary",
+        "statute_reference": "R.I. Gen. Laws 17-15-1",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "R.I. Gen. Laws 17-15-1",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "R.I. Gen. Laws 17-15-1",
+          "url": "https://elections.ri.gov/",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "September primary"
+    },
+    {
+      "state_code": "SC",
+      "state_name": "South Carolina",
+      "next_primary": {
+        "date": "2026-06-09",
+        "date_rule": "Second Tuesday in June",
+        "type": "state_primary",
+        "statute_reference": "S.C. Code 7-11-10",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "S.C. Code 7-11-10",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "S.C. Code 7-11-10",
+          "url": "https://www.scvotes.gov/",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "June primary; runoff if needed"
+    },
+    {
+      "state_code": "SD",
+      "state_name": "South Dakota",
+      "next_primary": {
+        "date": "2026-06-02",
+        "date_rule": "First Tuesday in June",
+        "type": "state_primary",
+        "statute_reference": "SDCL 12-7-1",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "SDCL 12-7-1",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "SDCL 12-7-1",
+          "url": "https://sdsos.gov/elections-voting/",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "June primary"
+    },
+    {
+      "state_code": "TN",
+      "state_name": "Tennessee",
+      "next_primary": {
+        "date": "2026-08-06",
+        "date_rule": "First Thursday in August",
+        "type": "state_primary",
+        "statute_reference": "Tenn. Code 2-1-104",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "Tenn. Code 2-1-104",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "Tenn. Code 2-1-104",
+          "url": "https://sos.tn.gov/elections",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "August primary"
+    },
+    {
+      "state_code": "TX",
+      "state_name": "Texas",
+      "next_primary": {
+        "date": "2026-03-03",
+        "date_rule": "First Tuesday in March in even-numbered years",
+        "type": "state_primary",
+        "statute_reference": "Tex. Elec. Code 41.007",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "Tex. Elec. Code 41.007",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "Tex. Elec. Code 41.007",
+          "url": "https://statutes.capitol.texas.gov/Docs/EL/htm/EL.41.htm",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        },
+        {
+          "type": "sos_website",
+          "url": "https://www.sos.state.tx.us/elections/index.shtml",
+          "calendar_url": "https://www.sos.state.tx.us/elections/voter/important-election-dates.shtml",
+          "last_verified": "2026-01-09"
+        }
+      ],
+      "validation": {
+        "status": "discrepancy_resolved",
+        "discrepancies": [
+          {
+            "field": "general_date",
+            "statute_value": "2026-11-03",
+            "sos_value": "2026-01-13",
+            "resolution": "Using statute value (authoritative)"
+          }
+        ]
+      },
+      "last_updated": "2026-01-09",
+      "notes": "March primary; runoff in late May if needed"
+    },
+    {
+      "state_code": "UT",
+      "state_name": "Utah",
+      "next_primary": {
+        "date": "2026-06-23",
+        "date_rule": "Fourth Tuesday in June",
+        "type": "state_primary",
+        "statute_reference": "Utah Code 20A-1-201.5",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "Utah Code 20A-1-201.5",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "Utah Code 20A-1-201.5",
+          "url": "https://vote.utah.gov/",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "June primary"
+    },
+    {
+      "state_code": "VT",
+      "state_name": "Vermont",
+      "next_primary": {
+        "date": "2026-08-11",
+        "date_rule": "Second Tuesday in August",
+        "type": "state_primary",
+        "statute_reference": "17 V.S.A. 2351",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "17 V.S.A. 2351",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "17 V.S.A. 2351",
+          "url": "https://sos.vermont.gov/elections/",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "August primary"
+    },
+    {
+      "state_code": "VA",
+      "state_name": "Virginia",
+      "next_primary": {
+        "date": "2026-06-16",
+        "date_rule": "Third Tuesday in June for congressional",
+        "type": "state_primary",
+        "statute_reference": "Va. Code 24.2-101",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "Va. Code 24.2-101",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "Va. Code 24.2-101",
+          "url": "https://www.elections.virginia.gov/",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "Congressional primary only in 2026"
+    },
+    {
+      "state_code": "WA",
+      "state_name": "Washington",
+      "next_primary": {
+        "date": "2026-08-04",
+        "date_rule": "First Tuesday in August",
+        "type": "state_primary",
+        "statute_reference": "RCW 29A.04.311",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "RCW 29A.04.311",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "RCW 29A.04.311",
+          "url": "https://www.sos.wa.gov/elections/",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "Top-two primary system"
+    },
+    {
+      "state_code": "WV",
+      "state_name": "West Virginia",
+      "next_primary": {
+        "date": "2026-05-12",
+        "date_rule": "Second Tuesday in May",
+        "type": "state_primary",
+        "statute_reference": "W. Va. Code 3-5-1",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "W. Va. Code 3-5-1",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "W. Va. Code 3-5-1",
+          "url": "https://sos.wv.gov/elections/",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "May primary"
+    },
+    {
+      "state_code": "WI",
+      "state_name": "Wisconsin",
+      "next_primary": {
+        "date": "2026-08-11",
+        "date_rule": "Second Tuesday in August",
+        "type": "state_primary",
+        "statute_reference": "Wis. Stat. 5.02",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "Wis. Stat. 5.02",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "Wis. Stat. 5.02",
+          "url": "https://elections.wi.gov/",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "August primary"
+    },
+    {
+      "state_code": "WY",
+      "state_name": "Wyoming",
+      "next_primary": {
+        "date": "2026-08-18",
+        "date_rule": "Third Tuesday in August",
+        "type": "state_primary",
+        "statute_reference": "Wyo. Stat. 22-5-104",
+        "confidence": "High"
+      },
+      "next_general": {
+        "date": "2026-11-03",
+        "date_rule": "First Tuesday after first Monday in November",
+        "type": "general_election",
+        "statute_reference": "Wyo. Stat. 22-5-104",
+        "confidence": "High"
+      },
+      "sources": [
+        {
+          "type": "statute",
+          "reference": "Wyo. Stat. 22-5-104",
+          "url": "https://sos.wyo.gov/Elections/",
+          "extracted_from": "Election Law Navigator / State Statutes"
+        }
+      ],
+      "validation": {
+        "status": "validated",
+        "discrepancies": []
+      },
+      "last_updated": "2026-01-09",
+      "notes": "August primary"
+    }
+  ]
+}
