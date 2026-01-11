@@ -27,10 +27,7 @@ function App() {
 
   if (loading) {
     return (
-      <div
-        className="min-h-screen flex items-center justify-center"
-        style={{ backgroundColor: 'var(--cream)' }}
-      >
+      <div className="min-h-screen flex items-center justify-center bg-white">
         <p style={{ color: 'var(--brown-light)' }}>Loading election data...</p>
       </div>
     )
@@ -38,10 +35,7 @@ function App() {
 
   if (!data) {
     return (
-      <div
-        className="min-h-screen flex items-center justify-center"
-        style={{ backgroundColor: 'var(--cream)' }}
-      >
+      <div className="min-h-screen flex items-center justify-center bg-white">
         <p style={{ color: 'var(--rust)' }}>Failed to load election data</p>
       </div>
     )
@@ -49,57 +43,48 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className="min-h-screen" style={{ backgroundColor: 'var(--cream)' }}>
-        <header
-          className="shadow-lg"
-          style={{ backgroundColor: 'var(--forest)' }}
-        >
-          <div className="max-w-7xl mx-auto px-4 py-4">
+      <div className="min-h-screen bg-white">
+        <header className="border-b border-stone-200">
+          <div className="max-w-6xl mx-auto px-6 py-5">
             <div className="flex items-center justify-between">
               <Link
                 to="/"
-                className="text-2xl font-bold transition-colors"
-                style={{
-                  fontFamily: 'Playfair Display, serif',
-                  color: 'var(--cream)'
-                }}
+                className="text-xl font-semibold tracking-tight"
+                style={{ color: 'var(--brown)' }}
               >
                 Election Date Tracker
               </Link>
-              <nav className="flex gap-6">
+              <nav className="flex items-center gap-8">
                 <Link
                   to="/"
-                  className="transition-colors uppercase tracking-wider text-sm font-medium"
-                  style={{ color: 'var(--cream)', opacity: 0.9 }}
+                  className="text-sm transition-colors"
+                  style={{ color: 'var(--brown-light)' }}
                 >
                   All States
                 </Link>
                 <Link
                   to="/upcoming"
-                  className="transition-colors uppercase tracking-wider text-sm font-medium"
-                  style={{ color: 'var(--cream)', opacity: 0.9 }}
+                  className="text-sm transition-colors"
+                  style={{ color: 'var(--brown-light)' }}
                 >
                   Upcoming
                 </Link>
                 <a
                   href="https://stevedait.ch"
-                  className="transition-colors uppercase tracking-wider text-sm font-medium"
-                  style={{ color: 'var(--amber)' }}
+                  className="text-sm font-medium"
+                  style={{ color: 'var(--forest)' }}
                 >
-                  stevedait.ch
+                  stevedait.ch →
                 </a>
               </nav>
             </div>
-            <p
-              className="text-sm mt-1"
-              style={{ color: 'var(--amber)', opacity: 0.8 }}
-            >
-              Data last updated: {data.metadata.generated_at.split('T')[0]}
+            <p className="text-sm mt-2" style={{ color: 'var(--brown-light)' }}>
+              Last updated: {data.metadata.generated_at.split('T')[0]}
             </p>
           </div>
         </header>
 
-        <main className="max-w-7xl mx-auto px-4 py-8">
+        <main className="max-w-6xl mx-auto px-6 py-10">
           <Routes>
             <Route path="/" element={<StateGrid states={data.states} specialData={specialData} />} />
             <Route path="/state/:stateCode" element={<StateDetail states={data.states} specialData={specialData} />} />
@@ -107,32 +92,27 @@ function App() {
           </Routes>
         </main>
 
-        <footer
-          className="py-6 mt-12"
-          style={{ backgroundColor: 'var(--forest)' }}
-        >
-          <div className="max-w-7xl mx-auto px-4 text-center text-sm">
-            <p style={{ color: 'var(--cream)', opacity: 0.9 }}>
-              Regular election dates sourced from state statutes and Secretary of State websites.
-            </p>
-            <p className="mt-1" style={{ color: 'var(--cream)', opacity: 0.7 }}>
-              Special election data may be incomplete. Always verify with your{' '}
+        <footer className="border-t border-stone-200 py-8 mt-12">
+          <div className="max-w-6xl mx-auto px-6">
+            <p className="text-sm" style={{ color: 'var(--brown-light)' }}>
+              Election dates sourced from state statutes and Secretary of State websites.
+              Special election data may be incomplete.{' '}
               <a
                 href="https://www.usa.gov/election-office"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="underline"
-                style={{ color: 'var(--amber)' }}
+                style={{ color: 'var(--forest)' }}
               >
-                state election office
-              </a>.
+                Verify with your state →
+              </a>
             </p>
-            <p className="mt-3" style={{ color: 'var(--amber)', opacity: 0.8 }}>
+            <p className="text-sm mt-3" style={{ color: 'var(--brown-light)' }}>
               A project by{' '}
               <a
                 href="https://stevedait.ch"
                 className="underline"
-                style={{ color: 'var(--amber)' }}
+                style={{ color: 'var(--forest)' }}
               >
                 Steve Daitch
               </a>

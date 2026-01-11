@@ -1,18 +1,15 @@
 @import "tailwindcss";
 
 :root {
-  /* National Parks Color Palette */
-  --cream: #FAF6F1;
-  --cream-dark: #F0E9DF;
+  /* Refined palette - WPA warmth meets mid-century restraint */
+  --white: #FFFFFF;
+  --cream: #FAFAF8;
+  --stone: #F5F5F3;
   --brown: #2C2416;
-  --brown-light: #4A3D2A;
+  --brown-light: #5C5347;
   --forest: #2D5A3D;
-  --forest-light: #3D7A52;
   --rust: #C65D3D;
-  --rust-light: #D4745A;
   --amber: #D4A574;
-  --amber-light: #E5C49D;
-  --navy: #1E3A5F;
 }
 
 html {
@@ -22,11 +19,14 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  background-color: var(--cream);
-  font-family: 'Source Sans 3', sans-serif;
+  background-color: var(--white);
+  font-family: 'Source Sans 3', system-ui, sans-serif;
   color: var(--brown);
+  line-height: 1.6;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 600;
+  line-height: 1.2;
 }

@@ -7,40 +7,33 @@ function StateCard({ state, specialCount = 0 }) {
   const daysToNext = Math.min(primaryDays, generalDays)
 
   return (
-    <div
-      className="rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow border-l-4"
-      style={{
-        backgroundColor: 'var(--cream-dark)',
-        borderLeftColor: 'var(--forest)'
-      }}
-    >
-      <div className="flex items-center justify-between mb-2">
-        <h3
-          className="text-lg font-bold"
-          style={{
-            fontFamily: 'Playfair Display, serif',
-            color: 'var(--brown)'
-          }}
-        >
-          {state.state_code}
-        </h3>
-        <div className="flex gap-1">
+    <div className="border-b border-stone-200 py-4 hover:bg-stone-50 transition-colors">
+      <div className="flex items-start justify-between mb-2">
+        <div>
+          <h3
+            className="text-lg font-semibold"
+            style={{ color: 'var(--brown)' }}
+          >
+            {state.state_code}
+          </h3>
+          <p className="text-sm" style={{ color: 'var(--brown-light)' }}>
+            {state.state_name}
+          </p>
+        </div>
+        <div className="flex gap-2">
           {specialCount > 0 && (
             <span
-              className="text-xs px-2 py-1 rounded font-medium"
-              style={{
-                backgroundColor: 'var(--rust)',
-                color: 'var(--cream)'
-              }}
+              className="text-xs font-medium px-2 py-1 rounded"
+              style={{ backgroundColor: 'var(--rust)', color: 'white' }}
             >
               {specialCount} Special
             </span>
           )}
           <span
-            className="text-xs px-2 py-1 rounded font-medium"
+            className="text-xs px-2 py-1 rounded"
             style={{
               backgroundColor: state.next_primary.confidence === 'High' ? 'var(--forest)' : 'var(--amber)',
-              color: 'var(--cream)'
+              color: 'white'
             }}
           >
             {state.next_primary.confidence}
@@ -48,33 +41,20 @@ function StateCard({ state, specialCount = 0 }) {
         </div>
       </div>
 
-      <p className="text-sm mb-3" style={{ color: 'var(--brown-light)' }}>
-        {state.state_name}
+      <div className="flex gap-8 text-sm">
+        <div>
+          <span style={{ color: 'var(--brown-light)' }}>Primary: </span>
+          <span style={{ color: 'var(--brown)' }}>{formatDate(state.next_primary.date)}</span>
+        </div>
+        <div>
+          <span style={{ color: 'var(--brown-light)' }}>General: </span>
+          <span style={{ color: 'var(--brown)' }}>{formatDate(state.next_general.date)}</span>
+        </div>
+      </div>
+
+      <p className="text-xs mt-2" style={{ color: 'var(--brown-light)' }}>
+        {daysToNext} days until {nextElection}
       </p>
-
-      <div className="space-y-2 text-sm">
-        <div className="flex justify-between">
-          <span style={{ color: 'var(--brown-light)' }}>Primary:</span>
-          <span className="font-medium" style={{ color: 'var(--brown)' }}>
-            {formatDate(state.next_primary.date)}
-          </span>
-        </div>
-        <div className="flex justify-between">
-          <span style={{ color: 'var(--brown-light)' }}>General:</span>
-          <span className="font-medium" style={{ color: 'var(--brown)' }}>
-            {formatDate(state.next_general.date)}
-          </span>
-        </div>
-      </div>
-
-      <div
-        className="mt-3 pt-3 border-t"
-        style={{ borderColor: 'var(--amber-light)' }}
-      >
-        <p className="text-xs" style={{ color: 'var(--brown-light)' }}>
-          {daysToNext} days until {nextElection}
-        </p>
-      </div>
     </div>
   )
 }
