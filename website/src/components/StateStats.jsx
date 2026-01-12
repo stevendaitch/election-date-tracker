@@ -85,9 +85,9 @@ function StateStats({ stateCode, eavsData }) {
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-6" style={{ backgroundColor: 'var(--stone)', padding: '1rem', borderRadius: '0.5rem' }}>
         {/* Voter Registration */}
         <StatCard
-          label="Registered Voters"
-          value={formatNumber(voter_registration?.total_registered)}
-          detail={voter_registration?.total_active ? `${formatNumber(voter_registration.total_active)} active` : null}
+          label="Active Voters"
+          value={formatNumber(voter_registration?.total_active)}
+          detail={voter_registration?.total_registered ? `${formatNumber(voter_registration.total_registered)} total registered` : null}
           accent="forest"
         />
 
