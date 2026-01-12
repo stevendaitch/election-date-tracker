@@ -1,7 +1,8 @@
 import { useParams, Link } from 'react-router-dom'
 import { daysUntil, formatDateLong as formatDate } from '../utils'
+import StateStats from './StateStats'
 
-function StateDetail({ states, specialData }) {
+function StateDetail({ states, specialData, eavsData }) {
   const { stateCode } = useParams()
   const state = states.find(s => s.state_code === stateCode.toUpperCase())
 
@@ -89,6 +90,9 @@ function StateDetail({ states, specialData }) {
           </div>
         </div>
       </div>
+
+      {/* 2024 EAVS Statistics */}
+      <StateStats stateCode={stateCode} eavsData={eavsData} />
 
       {/* Special Elections */}
       <div className="bg-white rounded-lg shadow-lg p-6 mb-6">

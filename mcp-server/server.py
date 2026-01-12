@@ -14,6 +14,7 @@ from mcp.types import Tool, TextContent
 # Load election data
 DATA_PATH = Path(__file__).parent / "data" / "election_dates.json"
 SPECIAL_DATA_PATH = Path(__file__).parent / "data" / "special_elections.json"
+EAVS_DATA_PATH = Path(__file__).parent / "data" / "eavs_state_data.json"
 
 def load_election_data() -> dict:
     """Load election dates from JSON file."""
@@ -25,6 +26,13 @@ def load_special_elections() -> dict:
     if not SPECIAL_DATA_PATH.exists():
         return {"special_elections": [], "metadata": {}, "by_state": {}}
     with open(SPECIAL_DATA_PATH, "r") as f:
+        return json.load(f)
+
+def load_eavs_data() -> dict:
+    """Load EAVS (Election Administration and Voting Survey) data."""
+    if not EAVS_DATA_PATH.exists():
+        return {"metadata": {}, "states": {}}
+    with open(EAVS_DATA_PATH, "r") as f:
         return json.load(f)
 
 def get_state_by_code(data: dict, state_code: str) -> dict | None:
@@ -170,6 +178,44 @@ async def list_tools():
         Tool(
             name="get_special_elections_metadata",
             description="Get metadata about the special elections dataset",
+            inputSchema={
+                "type": "object",
+                "properties": {}
+            }
+        ),
+        # EAVS (Election Administration and Voting Survey) Tools
+        Tool(
+            name="get_eavs_data_for_state",
+            description="Get 2024 EAVS election administration statistics for a specific state (registered voters, turnout, mail voting, polling places, poll workers, provisional ballots)",
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    "state_code": {
+                        "type": "string",
+                        "description": "Two-letter state code (e.g., 'MI', 'CA', 'TX')"
+                    }
+                },
+                "required": ["state_code"]
+            }
+        ),
+        Tool(
+            name="get_state_eavs_comparison",
+            description="Compare EAVS election administration statistics between multiple states",
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    "state_codes": {
+                        "type": "array",
+                        "items": {"type": "string"},
+                        "description": "List of two-letter state codes to compare (e.g., ['MI', 'CA', 'TX'])"
+                    }
+                },
+                "required": ["state_codes"]
+            }
+        ),
+        Tool(
+            name="get_national_eavs_summary",
+            description="Get national summary of 2024 EAVS data across all states (total registered voters, ballots cast, mail voting statistics)",
             inputSchema={
                 "type": "object",
                 "properties": {}
@@ -495,6 +541,110 @@ async def call_tool(name: str, arguments: dict):
             text=json.dumps({
                 "metadata": metadata,
                 "states_with_specials": list(special_data.get("by_state", {}).keys())
+            }, indent=2)
+        )]
+
+    # EAVS Tool Handlers
+    elif name == "get_eavs_data_for_state":
+        state_code = arguments.get("state_code", "").upper()
+        eavs_data = load_eavs_data()
+        state_eavs = eavs_data.get("states", {}).get(state_code)
+
+        if not state_eavs:
+            return [TextContent(
+                type="text",
+                text=json.dumps({"error": f"EAVS data not available for state '{state_code}'"}, indent=2)
+            )]
+
+        return [TextContent(
+            type="text",
+            text=json.dumps({
+                "state_code": state_code,
+                "state_name": state_eavs.get("state_name"),
+                "jurisdiction_count": state_eavs.get("jurisdiction_count"),
+                "voter_registration": state_eavs.get("voter_registration"),
+                "turnout": state_eavs.get("turnout"),
+                "mail_voting": state_eavs.get("mail_voting"),
+                "polling": state_eavs.get("polling"),
+                "provisional": state_eavs.get("provisional"),
+                "source": eavs_data.get("metadata", {})
+            }, indent=2)
+        )]
+
+    elif name == "get_state_eavs_comparison":
+        state_codes = [s.upper() for s in arguments.get("state_codes", [])]
+        eavs_data = load_eavs_data()
+        states_data = eavs_data.get("states", {})
+
+        comparison = []
+        for code in state_codes:
+            state_eavs = states_data.get(code)
+            if state_eavs:
+                comparison.append({
+                    "state_code": code,
+                    "state_name": state_eavs.get("state_name"),
+                    "registered_voters": state_eavs.get("voter_registration", {}).get("total_registered"),
+                    "ballots_cast": state_eavs.get("turnout", {}).get("total_ballots_cast"),
+                    "turnout_percentage": state_eavs.get("turnout", {}).get("turnout_percentage"),
+                    "polling_places": state_eavs.get("polling", {}).get("polling_places"),
+                    "poll_workers": state_eavs.get("polling", {}).get("poll_workers"),
+                    "mail_ballots_sent": state_eavs.get("mail_voting", {}).get("ballots_transmitted"),
+                    "mail_return_rate": state_eavs.get("mail_voting", {}).get("return_rate"),
+                })
+
+        return [TextContent(
+            type="text",
+            text=json.dumps({
+                "states_compared": len(comparison),
+                "comparison": comparison
+            }, indent=2)
+        )]
+
+    elif name == "get_national_eavs_summary":
+        eavs_data = load_eavs_data()
+        states_data = eavs_data.get("states", {})
+
+        totals = {
+            "total_registered": 0,
+            "total_active": 0,
+            "total_inactive": 0,
+            "total_ballots_cast": 0,
+            "total_mail_sent": 0,
+            "total_mail_returned": 0,
+            "total_polling_places": 0,
+            "total_poll_workers": 0,
+            "states_reporting": 0,
+        }
+
+        for code, state_eavs in states_data.items():
+            totals["states_reporting"] += 1
+            vr = state_eavs.get("voter_registration", {})
+            totals["total_registered"] += vr.get("total_registered") or 0
+            totals["total_active"] += vr.get("total_active") or 0
+            totals["total_inactive"] += vr.get("total_inactive") or 0
+
+            turnout = state_eavs.get("turnout", {})
+            totals["total_ballots_cast"] += turnout.get("total_ballots_cast") or 0
+
+            mail = state_eavs.get("mail_voting", {})
+            totals["total_mail_sent"] += mail.get("ballots_transmitted") or 0
+            totals["total_mail_returned"] += mail.get("ballots_returned") or 0
+
+            polling = state_eavs.get("polling", {})
+            totals["total_polling_places"] += polling.get("polling_places") or 0
+            totals["total_poll_workers"] += polling.get("poll_workers") or 0
+
+        # Calculate national turnout percentage
+        if totals["total_registered"] > 0:
+            totals["national_turnout_percentage"] = round(
+                totals["total_ballots_cast"] / totals["total_registered"] * 100, 1
+            )
+
+        return [TextContent(
+            type="text",
+            text=json.dumps({
+                "national_summary": totals,
+                "source": eavs_data.get("metadata", {})
             }, indent=2)
         )]
 

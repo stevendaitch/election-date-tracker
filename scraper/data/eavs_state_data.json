@@ -1,0 +1,2531 @@
+{
+  "metadata": {
+    "source": "U.S. Election Assistance Commission (EAC)",
+    "dataset": "2024 Election Administration and Voting Survey (EAVS)",
+    "version": "1.0",
+    "url": "https://www.eac.gov/research-and-data/studies-and-reports",
+    "notes": "Data aggregated from jurisdiction-level reports"
+  },
+  "states": {
+    "AK": {
+      "state_code": "AK",
+      "state_name": "ALASKA",
+      "jurisdiction_count": 1,
+      "voter_registration": {
+        "total_active": 565242,
+        "total_inactive": 45836,
+        "same_day_registrations": 4907,
+        "total_registered": 611078
+      },
+      "registration_transactions": {
+        "motor_vehicle": 1023321,
+        "online": 11483,
+        "by_mail": 52456,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 60695,
+        "ballots_returned": null,
+        "ballots_rejected": 5,
+        "ballots_counted": null,
+        "return_rate": null,
+        "rejection_rate": null
+      },
+      "uocava": {
+        "ballots_transmitted": 52,
+        "ballots_returned": null,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 402,
+        "polling_places": 524,
+        "poll_workers": 2979
+      },
+      "provisional": {
+        "ballots_submitted": 15138,
+        "ballots_counted": null,
+        "ballots_rejected": null,
+        "count_rate": null
+      },
+      "turnout": {
+        "total_ballots_cast": 340981,
+        "turnout_percentage": 55.8
+      }
+    },
+    "AL": {
+      "state_code": "AL",
+      "state_name": "ALABAMA",
+      "jurisdiction_count": 67,
+      "voter_registration": {
+        "total_active": 3466606,
+        "total_inactive": 401434,
+        "same_day_registrations": null,
+        "total_registered": 3868040
+      },
+      "registration_transactions": {
+        "motor_vehicle": 1398811,
+        "online": 3843,
+        "by_mail": 572632,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 140558,
+        "ballots_returned": null,
+        "ballots_rejected": null,
+        "ballots_counted": null,
+        "return_rate": null,
+        "rejection_rate": null
+      },
+      "uocava": {
+        "ballots_transmitted": null,
+        "ballots_returned": null,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 2283,
+        "polling_places": 2010,
+        "poll_workers": 7835
+      },
+      "provisional": {
+        "ballots_submitted": 13355,
+        "ballots_counted": 316,
+        "ballots_rejected": null,
+        "count_rate": 2.4
+      },
+      "turnout": {
+        "total_ballots_cast": 2272911,
+        "turnout_percentage": 58.8
+      }
+    },
+    "AR": {
+      "state_code": "AR",
+      "state_name": "ARKANSAS",
+      "jurisdiction_count": 75,
+      "voter_registration": {
+        "total_active": 1359659,
+        "total_inactive": 476064,
+        "same_day_registrations": null,
+        "total_registered": 1835723
+      },
+      "registration_transactions": {
+        "motor_vehicle": 582332,
+        "online": 54,
+        "by_mail": 246974,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 29173,
+        "ballots_returned": null,
+        "ballots_rejected": null,
+        "ballots_counted": null,
+        "return_rate": null,
+        "rejection_rate": null
+      },
+      "uocava": {
+        "ballots_transmitted": 5,
+        "ballots_returned": 7,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 2910,
+        "polling_places": 1030,
+        "poll_workers": 5720
+      },
+      "provisional": {
+        "ballots_submitted": 7085,
+        "ballots_counted": 5451,
+        "ballots_rejected": null,
+        "count_rate": 76.9
+      },
+      "turnout": {
+        "total_ballots_cast": 1122278,
+        "turnout_percentage": 61.1
+      }
+    },
+    "AS": {
+      "state_code": "AS",
+      "state_name": "AMERICAN SAMOA",
+      "jurisdiction_count": 1,
+      "voter_registration": {
+        "total_active": 15948,
+        "total_inactive": null,
+        "same_day_registrations": null,
+        "total_registered": 15948
+      },
+      "registration_transactions": {
+        "motor_vehicle": 4349,
+        "online": null,
+        "by_mail": 1745,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 207,
+        "ballots_returned": null,
+        "ballots_rejected": null,
+        "ballots_counted": null,
+        "return_rate": null,
+        "rejection_rate": null
+      },
+      "uocava": {
+        "ballots_transmitted": null,
+        "ballots_returned": null,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 17,
+        "polling_places": 41,
+        "poll_workers": 300
+      },
+      "provisional": {
+        "ballots_submitted": null,
+        "ballots_counted": null,
+        "ballots_rejected": null,
+        "count_rate": null
+      },
+      "turnout": {
+        "total_ballots_cast": 10215,
+        "turnout_percentage": 64.1
+      }
+    },
+    "AZ": {
+      "state_code": "AZ",
+      "state_name": "ARIZONA",
+      "jurisdiction_count": 15,
+      "voter_registration": {
+        "total_active": 4366786,
+        "total_inactive": 708551,
+        "same_day_registrations": null,
+        "total_registered": 5075337
+      },
+      "registration_transactions": {
+        "motor_vehicle": 2348267,
+        "online": 44650,
+        "by_mail": 607128,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 3582082,
+        "ballots_returned": 3209103,
+        "ballots_rejected": 544,
+        "ballots_counted": 411280,
+        "return_rate": 89.6,
+        "rejection_rate": 0.02
+      },
+      "uocava": {
+        "ballots_transmitted": 91,
+        "ballots_returned": null,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 1735,
+        "polling_places": 781,
+        "poll_workers": 7642
+      },
+      "provisional": {
+        "ballots_submitted": 49911,
+        "ballots_counted": 26692,
+        "ballots_rejected": null,
+        "count_rate": 53.5
+      },
+      "turnout": {
+        "total_ballots_cast": 3477975,
+        "turnout_percentage": 68.5
+      }
+    },
+    "CA": {
+      "state_code": "CA",
+      "state_name": "CALIFORNIA",
+      "jurisdiction_count": 58,
+      "voter_registration": {
+        "total_active": 22836602,
+        "total_inactive": 2883995,
+        "same_day_registrations": 688916,
+        "total_registered": 25720597
+      },
+      "registration_transactions": {
+        "motor_vehicle": 14007455,
+        "online": 544262,
+        "by_mail": 4308269,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 23003434,
+        "ballots_returned": null,
+        "ballots_rejected": 2854,
+        "ballots_counted": 6200937,
+        "return_rate": null,
+        "rejection_rate": null
+      },
+      "uocava": {
+        "ballots_transmitted": 7233,
+        "ballots_returned": 1916,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 25127,
+        "polling_places": 3818,
+        "poll_workers": 41643
+      },
+      "provisional": {
+        "ballots_submitted": 327003,
+        "ballots_counted": 217113,
+        "ballots_rejected": null,
+        "count_rate": 66.4
+      },
+      "turnout": {
+        "total_ballots_cast": 16164330,
+        "turnout_percentage": 62.8
+      }
+    },
+    "CO": {
+      "state_code": "CO",
+      "state_name": "COLORADO",
+      "jurisdiction_count": 64,
+      "voter_registration": {
+        "total_active": 4074612,
+        "total_inactive": 508668,
+        "same_day_registrations": 45612,
+        "total_registered": 4583280
+      },
+      "registration_transactions": {
+        "motor_vehicle": 3832931,
+        "online": 91871,
+        "by_mail": 498308,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 4090266,
+        "ballots_returned": null,
+        "ballots_rejected": 434,
+        "ballots_counted": 317337,
+        "return_rate": null,
+        "rejection_rate": null
+      },
+      "uocava": {
+        "ballots_transmitted": null,
+        "ballots_returned": null,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 3243,
+        "polling_places": 366,
+        "poll_workers": 7587
+      },
+      "provisional": {
+        "ballots_submitted": 444,
+        "ballots_counted": null,
+        "ballots_rejected": null,
+        "count_rate": null
+      },
+      "turnout": {
+        "total_ballots_cast": 3240754,
+        "turnout_percentage": 70.7
+      }
+    },
+    "CT": {
+      "state_code": "CT",
+      "state_name": "CONNECTICUT",
+      "jurisdiction_count": 169,
+      "voter_registration": {
+        "total_active": 2292818,
+        "total_inactive": 227832,
+        "same_day_registrations": 52887,
+        "total_registered": 2520650
+      },
+      "registration_transactions": {
+        "motor_vehicle": 732283,
+        "online": null,
+        "by_mail": 386014,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 129996,
+        "ballots_returned": null,
+        "ballots_rejected": 201,
+        "ballots_counted": null,
+        "return_rate": null,
+        "rejection_rate": null
+      },
+      "uocava": {
+        "ballots_transmitted": null,
+        "ballots_returned": null,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 718,
+        "polling_places": 739,
+        "poll_workers": 3590
+      },
+      "provisional": {
+        "ballots_submitted": 73,
+        "ballots_counted": null,
+        "ballots_rejected": null,
+        "count_rate": null
+      },
+      "turnout": {
+        "total_ballots_cast": 1820891,
+        "turnout_percentage": 72.2
+      }
+    },
+    "DC": {
+      "state_code": "DC",
+      "state_name": "DISTRICT OF COLUMBIA",
+      "jurisdiction_count": 1,
+      "voter_registration": {
+        "total_active": 469969,
+        "total_inactive": 142935,
+        "same_day_registrations": 14118,
+        "total_registered": 612904
+      },
+      "registration_transactions": {
+        "motor_vehicle": 119133,
+        "online": 219,
+        "by_mail": 69688,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 453858,
+        "ballots_returned": null,
+        "ballots_rejected": 55,
+        "ballots_counted": 96610,
+        "return_rate": null,
+        "rejection_rate": null
+      },
+      "uocava": {
+        "ballots_transmitted": 130,
+        "ballots_returned": 8,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 144,
+        "polling_places": 75,
+        "poll_workers": 1367
+      },
+      "provisional": {
+        "ballots_submitted": 1015,
+        "ballots_counted": 93,
+        "ballots_rejected": null,
+        "count_rate": 9.2
+      },
+      "turnout": {
+        "total_ballots_cast": 328871,
+        "turnout_percentage": 53.7
+      }
+    },
+    "DE": {
+      "state_code": "DE",
+      "state_name": "DELAWARE",
+      "jurisdiction_count": 3,
+      "voter_registration": {
+        "total_active": 742370,
+        "total_inactive": 46071,
+        "same_day_registrations": null,
+        "total_registered": 788441
+      },
+      "registration_transactions": {
+        "motor_vehicle": 512441,
+        "online": null,
+        "by_mail": 71902,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 40728,
+        "ballots_returned": 20128,
+        "ballots_rejected": null,
+        "ballots_counted": null,
+        "return_rate": 49.4,
+        "rejection_rate": null
+      },
+      "uocava": {
+        "ballots_transmitted": null,
+        "ballots_returned": null,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 537,
+        "polling_places": 282,
+        "poll_workers": 3797
+      },
+      "provisional": {
+        "ballots_submitted": 204,
+        "ballots_counted": 204,
+        "ballots_rejected": null,
+        "count_rate": 100.0
+      },
+      "turnout": {
+        "total_ballots_cast": 514367,
+        "turnout_percentage": 65.2
+      }
+    },
+    "FL": {
+      "state_code": "FL",
+      "state_name": "FLORIDA",
+      "jurisdiction_count": 67,
+      "voter_registration": {
+        "total_active": 14028831,
+        "total_inactive": 1708841,
+        "same_day_registrations": null,
+        "total_registered": 15737672
+      },
+      "registration_transactions": {
+        "motor_vehicle": 4334144,
+        "online": 38837,
+        "by_mail": 1337303,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 3524965,
+        "ballots_returned": null,
+        "ballots_rejected": 542,
+        "ballots_counted": 745254,
+        "return_rate": null,
+        "rejection_rate": null
+      },
+      "uocava": {
+        "ballots_transmitted": 1271,
+        "ballots_returned": 17,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 5798,
+        "polling_places": 4162,
+        "poll_workers": 46833
+      },
+      "provisional": {
+        "ballots_submitted": 22095,
+        "ballots_counted": 12164,
+        "ballots_rejected": null,
+        "count_rate": 55.1
+      },
+      "turnout": {
+        "total_ballots_cast": 10999125,
+        "turnout_percentage": 69.9
+      }
+    },
+    "GA": {
+      "state_code": "GA",
+      "state_name": "GEORGIA",
+      "jurisdiction_count": 159,
+      "voter_registration": {
+        "total_active": 7174961,
+        "total_inactive": 1059374,
+        "same_day_registrations": null,
+        "total_registered": 8234335
+      },
+      "registration_transactions": {
+        "motor_vehicle": 3220893,
+        "online": 10855,
+        "by_mail": 757440,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 327241,
+        "ballots_returned": null,
+        "ballots_rejected": 196,
+        "ballots_counted": null,
+        "return_rate": null,
+        "rejection_rate": null
+      },
+      "uocava": {
+        "ballots_transmitted": null,
+        "ballots_returned": null,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 2699,
+        "polling_places": 2658,
+        "poll_workers": 18580
+      },
+      "provisional": {
+        "ballots_submitted": 7950,
+        "ballots_counted": 4220,
+        "ballots_rejected": null,
+        "count_rate": 53.1
+      },
+      "turnout": {
+        "total_ballots_cast": 5297500,
+        "turnout_percentage": 64.3
+      }
+    },
+    "GU": {
+      "state_code": "GU",
+      "state_name": "GUAM",
+      "jurisdiction_count": 1,
+      "voter_registration": {
+        "total_active": 62098,
+        "total_inactive": null,
+        "same_day_registrations": null,
+        "total_registered": 62098
+      },
+      "registration_transactions": {
+        "motor_vehicle": 70129,
+        "online": 39093,
+        "by_mail": 12090,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 77,
+        "ballots_returned": null,
+        "ballots_rejected": null,
+        "ballots_counted": null,
+        "return_rate": null,
+        "rejection_rate": null
+      },
+      "uocava": {
+        "ballots_transmitted": 32,
+        "ballots_returned": 1,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 72,
+        "polling_places": 22,
+        "poll_workers": 360
+      },
+      "provisional": {
+        "ballots_submitted": 115,
+        "ballots_counted": 49,
+        "ballots_rejected": null,
+        "count_rate": 42.6
+      },
+      "turnout": {
+        "total_ballots_cast": 30283,
+        "turnout_percentage": 48.8
+      }
+    },
+    "HI": {
+      "state_code": "HI",
+      "state_name": "HAWAII",
+      "jurisdiction_count": 5,
+      "voter_registration": {
+        "total_active": 765998,
+        "total_inactive": 95335,
+        "same_day_registrations": 6472,
+        "total_registered": 861333
+      },
+      "registration_transactions": {
+        "motor_vehicle": 218289,
+        "online": null,
+        "by_mail": 64468,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 755841,
+        "ballots_returned": null,
+        "ballots_rejected": 62,
+        "ballots_counted": 190545,
+        "return_rate": null,
+        "rejection_rate": null
+      },
+      "uocava": {
+        "ballots_transmitted": null,
+        "ballots_returned": null,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 248,
+        "polling_places": 13,
+        "poll_workers": 301
+      },
+      "provisional": {
+        "ballots_submitted": null,
+        "ballots_counted": null,
+        "ballots_rejected": null,
+        "count_rate": null
+      },
+      "turnout": {
+        "total_ballots_cast": 522236,
+        "turnout_percentage": 60.6
+      }
+    },
+    "IA": {
+      "state_code": "IA",
+      "state_name": "IOWA",
+      "jurisdiction_count": 99,
+      "voter_registration": {
+        "total_active": 2016967,
+        "total_inactive": 239807,
+        "same_day_registrations": 37614,
+        "total_registered": 2256774
+      },
+      "registration_transactions": {
+        "motor_vehicle": 1444451,
+        "online": null,
+        "by_mail": 116644,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 235170,
+        "ballots_returned": null,
+        "ballots_rejected": null,
+        "ballots_counted": null,
+        "return_rate": null,
+        "rejection_rate": null
+      },
+      "uocava": {
+        "ballots_transmitted": null,
+        "ballots_returned": null,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 1653,
+        "polling_places": 1663,
+        "poll_workers": null
+      },
+      "provisional": {
+        "ballots_submitted": 1315,
+        "ballots_counted": null,
+        "ballots_rejected": null,
+        "count_rate": null
+      },
+      "turnout": {
+        "total_ballots_cast": 1674011,
+        "turnout_percentage": 74.2
+      }
+    },
+    "ID": {
+      "state_code": "ID",
+      "state_name": "IDAHO",
+      "jurisdiction_count": 44,
+      "voter_registration": {
+        "total_active": 1178750,
+        "total_inactive": null,
+        "same_day_registrations": 121015,
+        "total_registered": 1178750
+      },
+      "registration_transactions": {
+        "motor_vehicle": 322227,
+        "online": 1098,
+        "by_mail": 181741,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 196032,
+        "ballots_returned": null,
+        "ballots_rejected": 41,
+        "ballots_counted": null,
+        "return_rate": null,
+        "rejection_rate": null
+      },
+      "uocava": {
+        "ballots_transmitted": null,
+        "ballots_returned": null,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 976,
+        "polling_places": 856,
+        "poll_workers": 6140
+      },
+      "provisional": {
+        "ballots_submitted": null,
+        "ballots_counted": null,
+        "ballots_rejected": null,
+        "count_rate": null
+      },
+      "turnout": {
+        "total_ballots_cast": 917469,
+        "turnout_percentage": 77.8
+      }
+    },
+    "IL": {
+      "state_code": "IL",
+      "state_name": "ILLINOIS",
+      "jurisdiction_count": 108,
+      "voter_registration": {
+        "total_active": 8104485,
+        "total_inactive": 817109,
+        "same_day_registrations": 187157,
+        "total_registered": 8921594
+      },
+      "registration_transactions": {
+        "motor_vehicle": 5328462,
+        "online": 157776,
+        "by_mail": 981482,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 1177760,
+        "ballots_returned": 687789,
+        "ballots_rejected": 510,
+        "ballots_counted": 156532,
+        "return_rate": 58.4,
+        "rejection_rate": 0.07
+      },
+      "uocava": {
+        "ballots_transmitted": 81,
+        "ballots_returned": 58,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 8498,
+        "polling_places": 5213,
+        "poll_workers": 41042
+      },
+      "provisional": {
+        "ballots_submitted": 13634,
+        "ballots_counted": 1323,
+        "ballots_rejected": null,
+        "count_rate": 9.7
+      },
+      "turnout": {
+        "total_ballots_cast": 5717147,
+        "turnout_percentage": 64.1
+      }
+    },
+    "IN": {
+      "state_code": "IN",
+      "state_name": "INDIANA",
+      "jurisdiction_count": 92,
+      "voter_registration": {
+        "total_active": 4288091,
+        "total_inactive": 552765,
+        "same_day_registrations": null,
+        "total_registered": 4840856
+      },
+      "registration_transactions": {
+        "motor_vehicle": 1707923,
+        "online": 17509,
+        "by_mail": 357741,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 1616735,
+        "ballots_returned": null,
+        "ballots_rejected": null,
+        "ballots_counted": null,
+        "return_rate": null,
+        "rejection_rate": null
+      },
+      "uocava": {
+        "ballots_transmitted": 72,
+        "ballots_returned": 10,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 4982,
+        "polling_places": 1654,
+        "poll_workers": 16957
+      },
+      "provisional": {
+        "ballots_submitted": 6280,
+        "ballots_counted": null,
+        "ballots_rejected": null,
+        "count_rate": null
+      },
+      "turnout": {
+        "total_ballots_cast": 2986839,
+        "turnout_percentage": 61.7
+      }
+    },
+    "KS": {
+      "state_code": "KS",
+      "state_name": "KANSAS",
+      "jurisdiction_count": 105,
+      "voter_registration": {
+        "total_active": 1871857,
+        "total_inactive": 159262,
+        "same_day_registrations": null,
+        "total_registered": 2031119
+      },
+      "registration_transactions": {
+        "motor_vehicle": 919021,
+        "online": 17560,
+        "by_mail": 218739,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 165077,
+        "ballots_returned": 38701,
+        "ballots_rejected": 154,
+        "ballots_counted": 59925,
+        "return_rate": 23.4,
+        "rejection_rate": 0.4
+      },
+      "uocava": {
+        "ballots_transmitted": 14,
+        "ballots_returned": 6,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 4141,
+        "polling_places": 1177,
+        "poll_workers": 9468
+      },
+      "provisional": {
+        "ballots_submitted": 43059,
+        "ballots_counted": 14639,
+        "ballots_rejected": null,
+        "count_rate": 34.0
+      },
+      "turnout": {
+        "total_ballots_cast": 1342102,
+        "turnout_percentage": 66.1
+      }
+    },
+    "KY": {
+      "state_code": "KY",
+      "state_name": "KENTUCKY",
+      "jurisdiction_count": 120,
+      "voter_registration": {
+        "total_active": 3219361,
+        "total_inactive": 328775,
+        "same_day_registrations": null,
+        "total_registered": 3548136
+      },
+      "registration_transactions": {
+        "motor_vehicle": 2299601,
+        "online": 308309,
+        "by_mail": 220093,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 131762,
+        "ballots_returned": null,
+        "ballots_rejected": 186,
+        "ballots_counted": 49258,
+        "return_rate": null,
+        "rejection_rate": null
+      },
+      "uocava": {
+        "ballots_transmitted": 632,
+        "ballots_returned": 50,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 3117,
+        "polling_places": 1580,
+        "poll_workers": 12641
+      },
+      "provisional": {
+        "ballots_submitted": 210,
+        "ballots_counted": 161,
+        "ballots_rejected": null,
+        "count_rate": 76.7
+      },
+      "turnout": {
+        "total_ballots_cast": 2086090,
+        "turnout_percentage": 58.8
+      }
+    },
+    "LA": {
+      "state_code": "LA",
+      "state_name": "LOUISIANA",
+      "jurisdiction_count": 64,
+      "voter_registration": {
+        "total_active": 2734059,
+        "total_inactive": 312317,
+        "same_day_registrations": null,
+        "total_registered": 3046376
+      },
+      "registration_transactions": {
+        "motor_vehicle": 770881,
+        "online": 7200,
+        "by_mail": 263705,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 167577,
+        "ballots_returned": 138295,
+        "ballots_rejected": null,
+        "ballots_counted": null,
+        "return_rate": 82.5,
+        "rejection_rate": null
+      },
+      "uocava": {
+        "ballots_transmitted": 3,
+        "ballots_returned": null,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 3805,
+        "polling_places": 2032,
+        "poll_workers": 16580
+      },
+      "provisional": {
+        "ballots_submitted": 3926,
+        "ballots_counted": null,
+        "ballots_rejected": null,
+        "count_rate": null
+      },
+      "turnout": {
+        "total_ballots_cast": 2021588,
+        "turnout_percentage": 66.4
+      }
+    },
+    "MA": {
+      "state_code": "MA",
+      "state_name": "MASSACHUSETTS",
+      "jurisdiction_count": 351,
+      "voter_registration": {
+        "total_active": 4369280,
+        "total_inactive": 773063,
+        "same_day_registrations": null,
+        "total_registered": 5142343
+      },
+      "registration_transactions": {
+        "motor_vehicle": 3961950,
+        "online": 30544,
+        "by_mail": 465616,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 1349590,
+        "ballots_returned": 1427,
+        "ballots_rejected": 874,
+        "ballots_counted": null,
+        "return_rate": 0.1,
+        "rejection_rate": 61.25
+      },
+      "uocava": {
+        "ballots_transmitted": null,
+        "ballots_returned": null,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 2389,
+        "polling_places": 1634,
+        "poll_workers": 9556
+      },
+      "provisional": {
+        "ballots_submitted": 5105,
+        "ballots_counted": 515,
+        "ballots_rejected": null,
+        "count_rate": 10.1
+      },
+      "turnout": {
+        "total_ballots_cast": 3512930,
+        "turnout_percentage": 68.3
+      }
+    },
+    "MD": {
+      "state_code": "MD",
+      "state_name": "MARYLAND",
+      "jurisdiction_count": 24,
+      "voter_registration": {
+        "total_active": 4231112,
+        "total_inactive": 320634,
+        "same_day_registrations": 28846,
+        "total_registered": 4551746
+      },
+      "registration_transactions": {
+        "motor_vehicle": 6491862,
+        "online": 857,
+        "by_mail": 524189,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 878815,
+        "ballots_returned": 604270,
+        "ballots_rejected": 286,
+        "ballots_counted": 363317,
+        "return_rate": 68.8,
+        "rejection_rate": 0.05
+      },
+      "uocava": {
+        "ballots_transmitted": 44,
+        "ballots_returned": 22,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 1991,
+        "polling_places": 1991,
+        "poll_workers": 22986
+      },
+      "provisional": {
+        "ballots_submitted": 150002,
+        "ballots_counted": 64028,
+        "ballots_rejected": null,
+        "count_rate": 42.7
+      },
+      "turnout": {
+        "total_ballots_cast": 3028813,
+        "turnout_percentage": 66.5
+      }
+    },
+    "ME": {
+      "state_code": "ME",
+      "state_name": "MAINE",
+      "jurisdiction_count": 497,
+      "voter_registration": {
+        "total_active": 1041826,
+        "total_inactive": 181642,
+        "same_day_registrations": 62471,
+        "total_registered": 1223468
+      },
+      "registration_transactions": {
+        "motor_vehicle": 311687,
+        "online": null,
+        "by_mail": 106978,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 224646,
+        "ballots_returned": 7072,
+        "ballots_rejected": 359,
+        "ballots_counted": null,
+        "return_rate": 3.1,
+        "rejection_rate": 5.08
+      },
+      "uocava": {
+        "ballots_transmitted": null,
+        "ballots_returned": null,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 533,
+        "polling_places": 514,
+        "poll_workers": 6253
+      },
+      "provisional": {
+        "ballots_submitted": 128,
+        "ballots_counted": null,
+        "ballots_rejected": null,
+        "count_rate": null
+      },
+      "turnout": {
+        "total_ballots_cast": 842447,
+        "turnout_percentage": 68.9
+      }
+    },
+    "MI": {
+      "state_code": "MI",
+      "state_name": "MICHIGAN",
+      "jurisdiction_count": 83,
+      "voter_registration": {
+        "total_active": 7267666,
+        "total_inactive": 1172570,
+        "same_day_registrations": 140719,
+        "total_registered": 8440236
+      },
+      "registration_transactions": {
+        "motor_vehicle": 4087579,
+        "online": 252,
+        "by_mail": 604606,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 2213167,
+        "ballots_returned": 1793929,
+        "ballots_rejected": 1711,
+        "ballots_counted": null,
+        "return_rate": 81.1,
+        "rejection_rate": 0.1
+      },
+      "uocava": {
+        "ballots_transmitted": 1,
+        "ballots_returned": null,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 4340,
+        "polling_places": 5169,
+        "poll_workers": 45363
+      },
+      "provisional": {
+        "ballots_submitted": 140,
+        "ballots_counted": 140,
+        "ballots_rejected": null,
+        "count_rate": 100.0
+      },
+      "turnout": {
+        "total_ballots_cast": 5706503,
+        "turnout_percentage": 67.6
+      }
+    },
+    "MN": {
+      "state_code": "MN",
+      "state_name": "MINNESOTA",
+      "jurisdiction_count": 87,
+      "voter_registration": {
+        "total_active": 3853668,
+        "total_inactive": null,
+        "same_day_registrations": 163214,
+        "total_registered": 3853668
+      },
+      "registration_transactions": {
+        "motor_vehicle": 1372437,
+        "online": 54,
+        "by_mail": 471657,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 576563,
+        "ballots_returned": 83208,
+        "ballots_rejected": 53,
+        "ballots_counted": null,
+        "return_rate": 14.4,
+        "rejection_rate": 0.06
+      },
+      "uocava": {
+        "ballots_transmitted": 280,
+        "ballots_returned": null,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 4103,
+        "polling_places": 2685,
+        "poll_workers": 34886
+      },
+      "provisional": {
+        "ballots_submitted": null,
+        "ballots_counted": null,
+        "ballots_rejected": null,
+        "count_rate": null
+      },
+      "turnout": {
+        "total_ballots_cast": 3271069,
+        "turnout_percentage": 84.9
+      }
+    },
+    "MO": {
+      "state_code": "MO",
+      "state_name": "MISSOURI",
+      "jurisdiction_count": 116,
+      "voter_registration": {
+        "total_active": 4075977,
+        "total_inactive": 312810,
+        "same_day_registrations": null,
+        "total_registered": 4388787
+      },
+      "registration_transactions": {
+        "motor_vehicle": 460206,
+        "online": 9,
+        "by_mail": 460197,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 199327,
+        "ballots_returned": null,
+        "ballots_rejected": null,
+        "ballots_counted": null,
+        "return_rate": null,
+        "rejection_rate": null
+      },
+      "uocava": {
+        "ballots_transmitted": null,
+        "ballots_returned": null,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 3974,
+        "polling_places": 2240,
+        "poll_workers": 18740
+      },
+      "provisional": {
+        "ballots_submitted": 8554,
+        "ballots_counted": 4013,
+        "ballots_rejected": null,
+        "count_rate": 46.9
+      },
+      "turnout": {
+        "total_ballots_cast": 3126837,
+        "turnout_percentage": 71.2
+      }
+    },
+    "MP": {
+      "state_code": "MP",
+      "state_name": "NORTHERN MARIANA ISLANDS",
+      "jurisdiction_count": 1,
+      "voter_registration": {
+        "total_active": 19329,
+        "total_inactive": null,
+        "same_day_registrations": null,
+        "total_registered": 19329
+      },
+      "registration_transactions": {
+        "motor_vehicle": 445,
+        "online": null,
+        "by_mail": null,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 1168,
+        "ballots_returned": null,
+        "ballots_rejected": null,
+        "ballots_counted": null,
+        "return_rate": null,
+        "rejection_rate": null
+      },
+      "uocava": {
+        "ballots_transmitted": null,
+        "ballots_returned": null,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 7,
+        "polling_places": 13,
+        "poll_workers": 96
+      },
+      "provisional": {
+        "ballots_submitted": 12,
+        "ballots_counted": null,
+        "ballots_rejected": null,
+        "count_rate": null
+      },
+      "turnout": {
+        "total_ballots_cast": 12610,
+        "turnout_percentage": 65.2
+      }
+    },
+    "MS": {
+      "state_code": "MS",
+      "state_name": "MISSISSIPPI",
+      "jurisdiction_count": 82,
+      "voter_registration": {
+        "total_active": 1965948,
+        "total_inactive": 165778,
+        "same_day_registrations": null,
+        "total_registered": 2131726
+      },
+      "registration_transactions": {
+        "motor_vehicle": 927908,
+        "online": null,
+        "by_mail": 344991,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 28558,
+        "ballots_returned": null,
+        "ballots_rejected": null,
+        "ballots_counted": null,
+        "return_rate": null,
+        "rejection_rate": null
+      },
+      "uocava": {
+        "ballots_transmitted": null,
+        "ballots_returned": null,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 1746,
+        "polling_places": 1746,
+        "poll_workers": null
+      },
+      "provisional": {
+        "ballots_submitted": 21421,
+        "ballots_counted": 6428,
+        "ballots_rejected": null,
+        "count_rate": 30.0
+      },
+      "turnout": {
+        "total_ballots_cast": 1225176,
+        "turnout_percentage": 57.5
+      }
+    },
+    "MT": {
+      "state_code": "MT",
+      "state_name": "MONTANA",
+      "jurisdiction_count": 56,
+      "voter_registration": {
+        "total_active": 691534,
+        "total_inactive": 107822,
+        "same_day_registrations": 49171,
+        "total_registered": 799356
+      },
+      "registration_transactions": {
+        "motor_vehicle": 369784,
+        "online": null,
+        "by_mail": 78669,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 503295,
+        "ballots_returned": 482241,
+        "ballots_rejected": null,
+        "ballots_counted": null,
+        "return_rate": 95.8,
+        "rejection_rate": null
+      },
+      "uocava": {
+        "ballots_transmitted": null,
+        "ballots_returned": null,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 727,
+        "polling_places": 411,
+        "poll_workers": 4422
+      },
+      "provisional": {
+        "ballots_submitted": 10636,
+        "ballots_counted": 536,
+        "ballots_rejected": null,
+        "count_rate": 5.0
+      },
+      "turnout": {
+        "total_ballots_cast": 612423,
+        "turnout_percentage": 76.6
+      }
+    },
+    "NC": {
+      "state_code": "NC",
+      "state_name": "NORTH CAROLINA",
+      "jurisdiction_count": 100,
+      "voter_registration": {
+        "total_active": 6986365,
+        "total_inactive": 853624,
+        "same_day_registrations": 130515,
+        "total_registered": 7839989
+      },
+      "registration_transactions": {
+        "motor_vehicle": 3772641,
+        "online": 115680,
+        "by_mail": 1410905,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 451176,
+        "ballots_returned": null,
+        "ballots_rejected": null,
+        "ballots_counted": null,
+        "return_rate": null,
+        "rejection_rate": null
+      },
+      "uocava": {
+        "ballots_transmitted": 91,
+        "ballots_returned": 13,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 2659,
+        "polling_places": 3360,
+        "poll_workers": 28374
+      },
+      "provisional": {
+        "ballots_submitted": 65230,
+        "ballots_counted": 37979,
+        "ballots_rejected": null,
+        "count_rate": 58.2
+      },
+      "turnout": {
+        "total_ballots_cast": 5756106,
+        "turnout_percentage": 73.4
+      }
+    },
+    "ND": {
+      "state_code": "ND",
+      "state_name": "NORTH DAKOTA",
+      "jurisdiction_count": 53,
+      "voter_registration": {
+        "total_active": null,
+        "total_inactive": null,
+        "same_day_registrations": null,
+        "total_registered": null
+      },
+      "registration_transactions": {
+        "motor_vehicle": null,
+        "online": null,
+        "by_mail": null,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 94676,
+        "ballots_returned": null,
+        "ballots_rejected": 63,
+        "ballots_counted": null,
+        "return_rate": null,
+        "rejection_rate": null
+      },
+      "uocava": {
+        "ballots_transmitted": 42,
+        "ballots_returned": null,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 385,
+        "polling_places": 172,
+        "poll_workers": null
+      },
+      "provisional": {
+        "ballots_submitted": null,
+        "ballots_counted": null,
+        "ballots_rejected": null,
+        "count_rate": null
+      },
+      "turnout": {
+        "total_ballots_cast": 371974,
+        "turnout_percentage": null
+      }
+    },
+    "NE": {
+      "state_code": "NE",
+      "state_name": "NEBRASKA",
+      "jurisdiction_count": 93,
+      "voter_registration": {
+        "total_active": 1190813,
+        "total_inactive": 72674,
+        "same_day_registrations": 241,
+        "total_registered": 1263487
+      },
+      "registration_transactions": {
+        "motor_vehicle": 493947,
+        "online": 596,
+        "by_mail": 164491,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 323237,
+        "ballots_returned": null,
+        "ballots_rejected": 121,
+        "ballots_counted": 216022,
+        "return_rate": null,
+        "rejection_rate": null
+      },
+      "uocava": {
+        "ballots_transmitted": 108,
+        "ballots_returned": 54,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 1326,
+        "polling_places": 1083,
+        "poll_workers": 7951
+      },
+      "provisional": {
+        "ballots_submitted": 15870,
+        "ballots_counted": 3245,
+        "ballots_rejected": null,
+        "count_rate": 20.4
+      },
+      "turnout": {
+        "total_ballots_cast": 965145,
+        "turnout_percentage": 76.4
+      }
+    },
+    "NH": {
+      "state_code": "NH",
+      "state_name": "NEW HAMPSHIRE",
+      "jurisdiction_count": 320,
+      "voter_registration": {
+        "total_active": 1008603,
+        "total_inactive": null,
+        "same_day_registrations": 95083,
+        "total_registered": 1008603
+      },
+      "registration_transactions": {
+        "motor_vehicle": 722299,
+        "online": 13,
+        "by_mail": 61210,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 98762,
+        "ballots_returned": null,
+        "ballots_rejected": null,
+        "ballots_counted": null,
+        "return_rate": null,
+        "rejection_rate": null
+      },
+      "uocava": {
+        "ballots_transmitted": null,
+        "ballots_returned": null,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 333,
+        "polling_places": 307,
+        "poll_workers": null
+      },
+      "provisional": {
+        "ballots_submitted": null,
+        "ballots_counted": null,
+        "ballots_rejected": null,
+        "count_rate": null
+      },
+      "turnout": {
+        "total_ballots_cast": 829090,
+        "turnout_percentage": 82.2
+      }
+    },
+    "NJ": {
+      "state_code": "NJ",
+      "state_name": "NEW JERSEY",
+      "jurisdiction_count": 21,
+      "voter_registration": {
+        "total_active": 6066940,
+        "total_inactive": 563424,
+        "same_day_registrations": null,
+        "total_registered": 6630364
+      },
+      "registration_transactions": {
+        "motor_vehicle": 3565787,
+        "online": 348340,
+        "by_mail": 425782,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 1100762,
+        "ballots_returned": 988391,
+        "ballots_rejected": 448,
+        "ballots_counted": 398300,
+        "return_rate": 89.8,
+        "rejection_rate": 0.05
+      },
+      "uocava": {
+        "ballots_transmitted": 9,
+        "ballots_returned": null,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 6402,
+        "polling_places": 4620,
+        "poll_workers": 13242
+      },
+      "provisional": {
+        "ballots_submitted": 130146,
+        "ballots_counted": null,
+        "ballots_rejected": null,
+        "count_rate": null
+      },
+      "turnout": {
+        "total_ballots_cast": 4321921,
+        "turnout_percentage": 65.2
+      }
+    },
+    "NM": {
+      "state_code": "NM",
+      "state_name": "NEW MEXICO",
+      "jurisdiction_count": 33,
+      "voter_registration": {
+        "total_active": 1254851,
+        "total_inactive": 156424,
+        "same_day_registrations": 53626,
+        "total_registered": 1411275
+      },
+      "registration_transactions": {
+        "motor_vehicle": 496770,
+        "online": 4121,
+        "by_mail": 118141,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 122478,
+        "ballots_returned": 54771,
+        "ballots_rejected": 62,
+        "ballots_counted": 6533,
+        "return_rate": 44.7,
+        "rejection_rate": 0.11
+      },
+      "uocava": {
+        "ballots_transmitted": null,
+        "ballots_returned": null,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 2169,
+        "polling_places": 668,
+        "poll_workers": 4221
+      },
+      "provisional": {
+        "ballots_submitted": 2145,
+        "ballots_counted": null,
+        "ballots_rejected": null,
+        "count_rate": null
+      },
+      "turnout": {
+        "total_ballots_cast": 927923,
+        "turnout_percentage": 65.8
+      }
+    },
+    "NV": {
+      "state_code": "NV",
+      "state_name": "NEVADA",
+      "jurisdiction_count": 17,
+      "voter_registration": {
+        "total_active": 2052976,
+        "total_inactive": 202810,
+        "same_day_registrations": 59591,
+        "total_registered": 2255786
+      },
+      "registration_transactions": {
+        "motor_vehicle": 1510352,
+        "online": 17520,
+        "by_mail": 145494,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 2069339,
+        "ballots_returned": null,
+        "ballots_rejected": 342,
+        "ballots_counted": 299601,
+        "return_rate": null,
+        "rejection_rate": null
+      },
+      "uocava": {
+        "ballots_transmitted": 35,
+        "ballots_returned": 14,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 1667,
+        "polling_places": 288,
+        "poll_workers": 3904
+      },
+      "provisional": {
+        "ballots_submitted": 30813,
+        "ballots_counted": 831,
+        "ballots_rejected": null,
+        "count_rate": 2.7
+      },
+      "turnout": {
+        "total_ballots_cast": 1486297,
+        "turnout_percentage": 65.9
+      }
+    },
+    "NY": {
+      "state_code": "NY",
+      "state_name": "NEW YORK",
+      "jurisdiction_count": 62,
+      "voter_registration": {
+        "total_active": 12429981,
+        "total_inactive": 1149435,
+        "same_day_registrations": null,
+        "total_registered": 13579416
+      },
+      "registration_transactions": {
+        "motor_vehicle": 2590306,
+        "online": 113214,
+        "by_mail": 680259,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 975377,
+        "ballots_returned": 191702,
+        "ballots_rejected": null,
+        "ballots_counted": null,
+        "return_rate": 19.7,
+        "rejection_rate": null
+      },
+      "uocava": {
+        "ballots_transmitted": null,
+        "ballots_returned": null,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 13324,
+        "polling_places": 5197,
+        "poll_workers": 102259
+      },
+      "provisional": {
+        "ballots_submitted": 251783,
+        "ballots_counted": 37236,
+        "ballots_rejected": null,
+        "count_rate": 14.8
+      },
+      "turnout": {
+        "total_ballots_cast": 8389626,
+        "turnout_percentage": 61.8
+      }
+    },
+    "OH": {
+      "state_code": "OH",
+      "state_name": "OHIO",
+      "jurisdiction_count": 88,
+      "voter_registration": {
+        "total_active": 7054966,
+        "total_inactive": 983368,
+        "same_day_registrations": null,
+        "total_registered": 8038334
+      },
+      "registration_transactions": {
+        "motor_vehicle": 3741987,
+        "online": 139329,
+        "by_mail": 1198459,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 1131278,
+        "ballots_returned": null,
+        "ballots_rejected": 90,
+        "ballots_counted": 181688,
+        "return_rate": null,
+        "rejection_rate": null
+      },
+      "uocava": {
+        "ballots_transmitted": 1286,
+        "ballots_returned": 281,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 8868,
+        "polling_places": 3267,
+        "poll_workers": 40084
+      },
+      "provisional": {
+        "ballots_submitted": 139051,
+        "ballots_counted": 38020,
+        "ballots_rejected": null,
+        "count_rate": 27.3
+      },
+      "turnout": {
+        "total_ballots_cast": 5851625,
+        "turnout_percentage": 72.8
+      }
+    },
+    "OK": {
+      "state_code": "OK",
+      "state_name": "OKLAHOMA",
+      "jurisdiction_count": 77,
+      "voter_registration": {
+        "total_active": 2095952,
+        "total_inactive": 346259,
+        "same_day_registrations": null,
+        "total_registered": 2442211
+      },
+      "registration_transactions": {
+        "motor_vehicle": 767584,
+        "online": 9660,
+        "by_mail": 388669,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 124664,
+        "ballots_returned": null,
+        "ballots_rejected": null,
+        "ballots_counted": null,
+        "return_rate": null,
+        "rejection_rate": null
+      },
+      "uocava": {
+        "ballots_transmitted": null,
+        "ballots_returned": null,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 1986,
+        "polling_places": 2067,
+        "poll_workers": 7269
+      },
+      "provisional": {
+        "ballots_submitted": 4234,
+        "ballots_counted": 2842,
+        "ballots_rejected": null,
+        "count_rate": 67.1
+      },
+      "turnout": {
+        "total_ballots_cast": 1573274,
+        "turnout_percentage": 64.4
+      }
+    },
+    "OR": {
+      "state_code": "OR",
+      "state_name": "OREGON",
+      "jurisdiction_count": 36,
+      "voter_registration": {
+        "total_active": 3060374,
+        "total_inactive": null,
+        "same_day_registrations": null,
+        "total_registered": 3060374
+      },
+      "registration_transactions": {
+        "motor_vehicle": 1569926,
+        "online": null,
+        "by_mail": 240611,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 3038435,
+        "ballots_returned": 22658,
+        "ballots_rejected": 318,
+        "ballots_counted": 1484470,
+        "return_rate": 0.7,
+        "rejection_rate": 1.4
+      },
+      "uocava": {
+        "ballots_transmitted": null,
+        "ballots_returned": null,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 1304,
+        "polling_places": 36,
+        "poll_workers": null
+      },
+      "provisional": {
+        "ballots_submitted": 180,
+        "ballots_counted": 180,
+        "ballots_rejected": null,
+        "count_rate": 100.0
+      },
+      "turnout": {
+        "total_ballots_cast": 2269608,
+        "turnout_percentage": 74.2
+      }
+    },
+    "PA": {
+      "state_code": "PA",
+      "state_name": "PENNSYLVANIA",
+      "jurisdiction_count": 67,
+      "voter_registration": {
+        "total_active": 8407874,
+        "total_inactive": 767259,
+        "same_day_registrations": null,
+        "total_registered": 9175133
+      },
+      "registration_transactions": {
+        "motor_vehicle": 4014449,
+        "online": 568619,
+        "by_mail": 842187,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 2204273,
+        "ballots_returned": 1780363,
+        "ballots_rejected": 175,
+        "ballots_counted": null,
+        "return_rate": 80.8,
+        "rejection_rate": 0.01
+      },
+      "uocava": {
+        "ballots_transmitted": 153,
+        "ballots_returned": 23,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 9153,
+        "polling_places": 7752,
+        "poll_workers": 46172
+      },
+      "provisional": {
+        "ballots_submitted": 98032,
+        "ballots_counted": 47002,
+        "ballots_rejected": null,
+        "count_rate": 47.9
+      },
+      "turnout": {
+        "total_ballots_cast": 7074875,
+        "turnout_percentage": 77.1
+      }
+    },
+    "PR": {
+      "state_code": "PR",
+      "state_name": "PUERTO RICO",
+      "jurisdiction_count": 1,
+      "voter_registration": {
+        "total_active": 1987317,
+        "total_inactive": null,
+        "same_day_registrations": null,
+        "total_registered": 1987317
+      },
+      "registration_transactions": {
+        "motor_vehicle": 1331331,
+        "online": 17806,
+        "by_mail": 98311,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 149339,
+        "ballots_returned": null,
+        "ballots_rejected": null,
+        "ballots_counted": null,
+        "return_rate": null,
+        "rejection_rate": null
+      },
+      "uocava": {
+        "ballots_transmitted": 23,
+        "ballots_returned": 23,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 114,
+        "polling_places": 1337,
+        "poll_workers": null
+      },
+      "provisional": {
+        "ballots_submitted": 22889,
+        "ballots_counted": 21663,
+        "ballots_rejected": null,
+        "count_rate": 94.6
+      },
+      "turnout": {
+        "total_ballots_cast": 1283628,
+        "turnout_percentage": 64.6
+      }
+    },
+    "RI": {
+      "state_code": "RI",
+      "state_name": "RHODE ISLAND",
+      "jurisdiction_count": 39,
+      "voter_registration": {
+        "total_active": 734885,
+        "total_inactive": 57190,
+        "same_day_registrations": 8897,
+        "total_registered": 792075
+      },
+      "registration_transactions": {
+        "motor_vehicle": 532095,
+        "online": 100,
+        "by_mail": 53040,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 56663,
+        "ballots_returned": null,
+        "ballots_rejected": 459,
+        "ballots_counted": 21374,
+        "return_rate": null,
+        "rejection_rate": null
+      },
+      "uocava": {
+        "ballots_transmitted": 4,
+        "ballots_returned": null,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 453,
+        "polling_places": 430,
+        "poll_workers": 3709
+      },
+      "provisional": {
+        "ballots_submitted": 5308,
+        "ballots_counted": 4684,
+        "ballots_rejected": null,
+        "count_rate": 88.2
+      },
+      "turnout": {
+        "total_ballots_cast": 522164,
+        "turnout_percentage": 65.9
+      }
+    },
+    "SC": {
+      "state_code": "SC",
+      "state_name": "SOUTH CAROLINA",
+      "jurisdiction_count": 46,
+      "voter_registration": {
+        "total_active": 3417493,
+        "total_inactive": 433694,
+        "same_day_registrations": null,
+        "total_registered": 3851187
+      },
+      "registration_transactions": {
+        "motor_vehicle": 1051212,
+        "online": null,
+        "by_mail": 594568,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 108922,
+        "ballots_returned": null,
+        "ballots_rejected": null,
+        "ballots_counted": null,
+        "return_rate": null,
+        "rejection_rate": null
+      },
+      "uocava": {
+        "ballots_transmitted": null,
+        "ballots_returned": null,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 2308,
+        "polling_places": 2088,
+        "poll_workers": 18122
+      },
+      "provisional": {
+        "ballots_submitted": 6571,
+        "ballots_counted": 650,
+        "ballots_rejected": null,
+        "count_rate": 9.9
+      },
+      "turnout": {
+        "total_ballots_cast": 2566404,
+        "turnout_percentage": 66.6
+      }
+    },
+    "SD": {
+      "state_code": "SD",
+      "state_name": "SOUTH DAKOTA",
+      "jurisdiction_count": 66,
+      "voter_registration": {
+        "total_active": 627248,
+        "total_inactive": 63058,
+        "same_day_registrations": null,
+        "total_registered": 690306
+      },
+      "registration_transactions": {
+        "motor_vehicle": 196381,
+        "online": 45,
+        "by_mail": 62588,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 155015,
+        "ballots_returned": null,
+        "ballots_rejected": null,
+        "ballots_counted": null,
+        "return_rate": null,
+        "rejection_rate": null
+      },
+      "uocava": {
+        "ballots_transmitted": 4,
+        "ballots_returned": 5,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 710,
+        "polling_places": 493,
+        "poll_workers": 2697
+      },
+      "provisional": {
+        "ballots_submitted": 406,
+        "ballots_counted": 229,
+        "ballots_rejected": null,
+        "count_rate": 56.4
+      },
+      "turnout": {
+        "total_ballots_cast": 435739,
+        "turnout_percentage": 63.1
+      }
+    },
+    "TN": {
+      "state_code": "TN",
+      "state_name": "TENNESSEE",
+      "jurisdiction_count": 95,
+      "voter_registration": {
+        "total_active": 4458851,
+        "total_inactive": 366750,
+        "same_day_registrations": null,
+        "total_registered": 4825601
+      },
+      "registration_transactions": {
+        "motor_vehicle": 1262606,
+        "online": 50938,
+        "by_mail": 634912,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 98452,
+        "ballots_returned": 7226,
+        "ballots_rejected": null,
+        "ballots_counted": null,
+        "return_rate": 7.3,
+        "rejection_rate": null
+      },
+      "uocava": {
+        "ballots_transmitted": 386,
+        "ballots_returned": 228,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 1996,
+        "polling_places": 1889,
+        "poll_workers": 16750
+      },
+      "provisional": {
+        "ballots_submitted": 12715,
+        "ballots_counted": 10393,
+        "ballots_rejected": null,
+        "count_rate": 81.7
+      },
+      "turnout": {
+        "total_ballots_cast": 3090161,
+        "turnout_percentage": 64.0
+      }
+    },
+    "TX": {
+      "state_code": "TX",
+      "state_name": "TEXAS",
+      "jurisdiction_count": 254,
+      "voter_registration": {
+        "total_active": 16611078,
+        "total_inactive": 2012853,
+        "same_day_registrations": null,
+        "total_registered": 18623931
+      },
+      "registration_transactions": {
+        "motor_vehicle": 5133464,
+        "online": 67593,
+        "by_mail": 2900357,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 463200,
+        "ballots_returned": null,
+        "ballots_rejected": null,
+        "ballots_counted": null,
+        "return_rate": null,
+        "rejection_rate": null
+      },
+      "uocava": {
+        "ballots_transmitted": 3035,
+        "ballots_returned": 783,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 9704,
+        "polling_places": 6135,
+        "poll_workers": 42324
+      },
+      "provisional": {
+        "ballots_submitted": 66811,
+        "ballots_counted": 48611,
+        "ballots_rejected": null,
+        "count_rate": 72.8
+      },
+      "turnout": {
+        "total_ballots_cast": 11488820,
+        "turnout_percentage": 61.7
+      }
+    },
+    "UT": {
+      "state_code": "UT",
+      "state_name": "UTAH",
+      "jurisdiction_count": 29,
+      "voter_registration": {
+        "total_active": 1793182,
+        "total_inactive": 246658,
+        "same_day_registrations": 33165,
+        "total_registered": 2039840
+      },
+      "registration_transactions": {
+        "motor_vehicle": 949986,
+        "online": 39,
+        "by_mail": 41425,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 1475522,
+        "ballots_returned": null,
+        "ballots_rejected": 308,
+        "ballots_counted": 1018405,
+        "return_rate": null,
+        "rejection_rate": null
+      },
+      "uocava": {
+        "ballots_transmitted": 67,
+        "ballots_returned": 17,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 2979,
+        "polling_places": 114,
+        "poll_workers": 1110
+      },
+      "provisional": {
+        "ballots_submitted": 47272,
+        "ballots_counted": 12100,
+        "ballots_rejected": null,
+        "count_rate": 25.6
+      },
+      "turnout": {
+        "total_ballots_cast": 1466896,
+        "turnout_percentage": 71.9
+      }
+    },
+    "VA": {
+      "state_code": "VA",
+      "state_name": "VIRGINIA",
+      "jurisdiction_count": 133,
+      "voter_registration": {
+        "total_active": 5898922,
+        "total_inactive": 481764,
+        "same_day_registrations": 112368,
+        "total_registered": 6380686
+      },
+      "registration_transactions": {
+        "motor_vehicle": 3232808,
+        "online": 56296,
+        "by_mail": 563781,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 531154,
+        "ballots_returned": 374962,
+        "ballots_rejected": 2764,
+        "ballots_counted": 94192,
+        "return_rate": 70.6,
+        "rejection_rate": 0.74
+      },
+      "uocava": {
+        "ballots_transmitted": 2,
+        "ballots_returned": null,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 2865,
+        "polling_places": 2673,
+        "poll_workers": 29760
+      },
+      "provisional": {
+        "ballots_submitted": 119249,
+        "ballots_counted": 5955,
+        "ballots_rejected": null,
+        "count_rate": 5.0
+      },
+      "turnout": {
+        "total_ballots_cast": 4511853,
+        "turnout_percentage": 70.7
+      }
+    },
+    "VI": {
+      "state_code": "VI",
+      "state_name": "U.S. VIRGIN ISLANDS",
+      "jurisdiction_count": 1,
+      "voter_registration": {
+        "total_active": 31171,
+        "total_inactive": 25133,
+        "same_day_registrations": null,
+        "total_registered": 56304
+      },
+      "registration_transactions": {
+        "motor_vehicle": 24802,
+        "online": null,
+        "by_mail": 1720,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 648,
+        "ballots_returned": null,
+        "ballots_rejected": null,
+        "ballots_counted": null,
+        "return_rate": null,
+        "rejection_rate": null
+      },
+      "uocava": {
+        "ballots_transmitted": 15,
+        "ballots_returned": null,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 22,
+        "polling_places": 11,
+        "poll_workers": 140
+      },
+      "provisional": {
+        "ballots_submitted": 1,
+        "ballots_counted": null,
+        "ballots_rejected": null,
+        "count_rate": null
+      },
+      "turnout": {
+        "total_ballots_cast": 15952,
+        "turnout_percentage": 28.3
+      }
+    },
+    "VT": {
+      "state_code": "VT",
+      "state_name": "VERMONT",
+      "jurisdiction_count": 247,
+      "voter_registration": {
+        "total_active": 460415,
+        "total_inactive": 40571,
+        "same_day_registrations": 5531,
+        "total_registered": 500986
+      },
+      "registration_transactions": {
+        "motor_vehicle": 87935,
+        "online": null,
+        "by_mail": 81993,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 441666,
+        "ballots_returned": null,
+        "ballots_rejected": 158,
+        "ballots_counted": null,
+        "return_rate": null,
+        "rejection_rate": null
+      },
+      "uocava": {
+        "ballots_transmitted": null,
+        "ballots_returned": null,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 262,
+        "polling_places": 262,
+        "poll_workers": null
+      },
+      "provisional": {
+        "ballots_submitted": null,
+        "ballots_counted": null,
+        "ballots_rejected": null,
+        "count_rate": null
+      },
+      "turnout": {
+        "total_ballots_cast": 361604,
+        "turnout_percentage": 72.2
+      }
+    },
+    "WA": {
+      "state_code": "WA",
+      "state_name": "WASHINGTON",
+      "jurisdiction_count": 39,
+      "voter_registration": {
+        "total_active": 5013112,
+        "total_inactive": 520000,
+        "same_day_registrations": 55328,
+        "total_registered": 5533112
+      },
+      "registration_transactions": {
+        "motor_vehicle": 1992906,
+        "online": 5566,
+        "by_mail": 473192,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 5169231,
+        "ballots_returned": null,
+        "ballots_rejected": 575,
+        "ballots_counted": 2616566,
+        "return_rate": null,
+        "rejection_rate": null
+      },
+      "uocava": {
+        "ballots_transmitted": 100,
+        "ballots_returned": 2,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 8111,
+        "polling_places": 67,
+        "poll_workers": null
+      },
+      "provisional": {
+        "ballots_submitted": 120,
+        "ballots_counted": null,
+        "ballots_rejected": null,
+        "count_rate": null
+      },
+      "turnout": {
+        "total_ballots_cast": 3949810,
+        "turnout_percentage": 71.4
+      }
+    },
+    "WI": {
+      "state_code": "WI",
+      "state_name": "WISCONSIN",
+      "jurisdiction_count": 1851,
+      "voter_registration": {
+        "total_active": 3933068,
+        "total_inactive": null,
+        "same_day_registrations": 409112,
+        "total_registered": 3933068
+      },
+      "registration_transactions": {
+        "motor_vehicle": 705403,
+        "online": null,
+        "by_mail": 524103,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 614367,
+        "ballots_returned": 154061,
+        "ballots_rejected": null,
+        "ballots_counted": null,
+        "return_rate": 25.1,
+        "rejection_rate": null
+      },
+      "uocava": {
+        "ballots_transmitted": null,
+        "ballots_returned": null,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 3603,
+        "polling_places": 2696,
+        "poll_workers": null
+      },
+      "provisional": {
+        "ballots_submitted": 661,
+        "ballots_counted": null,
+        "ballots_rejected": null,
+        "count_rate": null
+      },
+      "turnout": {
+        "total_ballots_cast": 3434185,
+        "turnout_percentage": 87.3
+      }
+    },
+    "WV": {
+      "state_code": "WV",
+      "state_name": "WEST VIRGINIA",
+      "jurisdiction_count": 55,
+      "voter_registration": {
+        "total_active": 1118468,
+        "total_inactive": 91947,
+        "same_day_registrations": null,
+        "total_registered": 1210415
+      },
+      "registration_transactions": {
+        "motor_vehicle": 496219,
+        "online": 42,
+        "by_mail": 53343,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 24830,
+        "ballots_returned": 1457,
+        "ballots_rejected": null,
+        "ballots_counted": null,
+        "return_rate": 5.9,
+        "rejection_rate": null
+      },
+      "uocava": {
+        "ballots_transmitted": 14,
+        "ballots_returned": 7,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 1652,
+        "polling_places": 1486,
+        "poll_workers": 8602
+      },
+      "provisional": {
+        "ballots_submitted": 7782,
+        "ballots_counted": 3330,
+        "ballots_rejected": null,
+        "count_rate": 42.8
+      },
+      "turnout": {
+        "total_ballots_cast": 769206,
+        "turnout_percentage": 63.5
+      }
+    },
+    "WY": {
+      "state_code": "WY",
+      "state_name": "WYOMING",
+      "jurisdiction_count": 23,
+      "voter_registration": {
+        "total_active": 296960,
+        "total_inactive": null,
+        "same_day_registrations": 60724,
+        "total_registered": 296960
+      },
+      "registration_transactions": {
+        "motor_vehicle": 87915,
+        "online": null,
+        "by_mail": 42288,
+        "in_person": null
+      },
+      "mail_voting": {
+        "ballots_transmitted": 39842,
+        "ballots_returned": null,
+        "ballots_rejected": 8,
+        "ballots_counted": 4968,
+        "return_rate": null,
+        "rejection_rate": null
+      },
+      "uocava": {
+        "ballots_transmitted": null,
+        "ballots_returned": null,
+        "ballots_counted": null
+      },
+      "polling": {
+        "precincts": 438,
+        "polling_places": 218,
+        "poll_workers": 2079
+      },
+      "provisional": {
+        "ballots_submitted": 130,
+        "ballots_counted": null,
+        "ballots_rejected": null,
+        "count_rate": null
+      },
+      "turnout": {
+        "total_ballots_cast": 271123,
+        "turnout_percentage": 91.3
+      }
+    }
+  }
+}
