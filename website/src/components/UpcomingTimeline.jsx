@@ -43,11 +43,12 @@ function UpcomingTimeline({ states, specialData }) {
     })
   }
 
-  // Sort by date
+  // Sort by date and filter out past elections
   elections.sort((a, b) => new Date(a.date) - new Date(b.date))
+  const upcomingElections = elections.filter(e => e.days >= 0)
 
   // Group by month
-  const grouped = elections.reduce((acc, election) => {
+  const grouped = upcomingElections.reduce((acc, election) => {
     const monthYear = new Date(election.date + 'T00:00:00').toLocaleDateString('en-US', {
       month: 'long',
       year: 'numeric'
