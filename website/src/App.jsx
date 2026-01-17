@@ -11,10 +11,11 @@ function App() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
+    const base = import.meta.env.BASE_URL
     Promise.all([
-      fetch('/election_dates.json').then(res => res.json()),
-      fetch('/special_elections.json').then(res => res.json()).catch(() => ({ special_elections: [], by_state: {} })),
-      fetch('/eavs_state_data.json').then(res => res.json()).catch(() => null)
+      fetch(`${base}election_dates.json`).then(res => res.json()),
+      fetch(`${base}special_elections.json`).then(res => res.json()).catch(() => ({ special_elections: [], by_state: {} })),
+      fetch(`${base}eavs_state_data.json`).then(res => res.json()).catch(() => null)
     ])
       .then(([regular, special, eavs]) => {
         setData(regular)
@@ -45,7 +46,7 @@ function App() {
   }
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/election-date-tracker">
       <div className="min-h-screen bg-white">
         <header className="border-b border-stone-200">
           <div className="max-w-6xl mx-auto px-6 py-5">
