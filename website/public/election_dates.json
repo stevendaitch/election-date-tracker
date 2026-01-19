@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "generated_at": "2026-01-12T19:29:46.729462",
+    "generated_at": "2026-01-19T06:50:58.573714",
     "description": "Election dates for US states, validated against statutes and SOS websites",
     "year": 2026
   },
@@ -35,7 +35,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "May primary for state offices"
     },
     {
@@ -67,7 +67,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "Top-four primary system"
     },
     {
@@ -99,7 +99,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "August primary"
     },
     {
@@ -131,7 +131,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "March primary"
     },
     {
@@ -169,7 +169,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "Top-two primary for statewide offices"
     },
     {
@@ -201,7 +201,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "June primary"
     },
     {
@@ -233,7 +233,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "August primary"
     },
     {
@@ -265,7 +265,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "September primary"
     },
     {
@@ -316,7 +316,7 @@
           }
         ]
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "Primary election date specified in statute"
     },
     {
@@ -348,7 +348,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "May primary; runoff if needed"
     },
     {
@@ -380,7 +380,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "August primary"
     },
     {
@@ -412,7 +412,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "May primary"
     },
     {
@@ -444,7 +444,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "March primary"
     },
     {
@@ -476,7 +476,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "May primary"
     },
     {
@@ -508,7 +508,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "June primary"
     },
     {
@@ -540,7 +540,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "August primary"
     },
     {
@@ -572,7 +572,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "May primary"
     },
     {
@@ -604,7 +604,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "Congressional primary only in 2026"
     },
     {
@@ -636,7 +636,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "June primary; uses ranked choice voting"
     },
     {
@@ -668,7 +668,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "June primary"
     },
     {
@@ -700,7 +700,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "September primary"
     },
     {
@@ -738,7 +738,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "State primary law specifies August timing"
     },
     {
@@ -770,7 +770,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "August primary"
     },
     {
@@ -802,7 +802,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "Congressional primary only in 2026"
     },
     {
@@ -834,7 +834,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "August primary"
     },
     {
@@ -866,7 +866,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "June primary"
     },
     {
@@ -898,7 +898,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "May primary; nonpartisan legislature"
     },
     {
@@ -930,7 +930,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "June primary"
     },
     {
@@ -962,7 +962,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "September primary"
     },
     {
@@ -994,7 +994,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "Congressional primary only in 2026"
     },
     {
@@ -1026,7 +1026,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "June primary"
     },
     {
@@ -1058,7 +1058,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "June primary"
     },
     {
@@ -1090,7 +1090,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "March primary; runoff if needed"
     },
     {
@@ -1122,7 +1122,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "June primary"
     },
     {
@@ -1160,7 +1160,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "May primary for state and federal offices"
     },
     {
@@ -1192,7 +1192,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "June primary; runoff if needed"
     },
     {
@@ -1224,7 +1224,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "May primary; vote by mail"
     },
     {
@@ -1256,7 +1256,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "May primary"
     },
     {
@@ -1288,7 +1288,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "September primary"
     },
     {
@@ -1320,7 +1320,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "June primary; runoff if needed"
     },
     {
@@ -1352,7 +1352,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "June primary"
     },
     {
@@ -1384,7 +1384,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "August primary"
     },
     {
@@ -1429,7 +1429,7 @@
           }
         ]
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "March primary; runoff in late May if needed"
     },
     {
@@ -1461,7 +1461,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "June primary"
     },
     {
@@ -1493,7 +1493,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "August primary"
     },
     {
@@ -1525,7 +1525,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "Congressional primary only in 2026"
     },
     {
@@ -1557,7 +1557,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "Top-two primary system"
     },
     {
@@ -1589,7 +1589,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "May primary"
     },
     {
@@ -1621,7 +1621,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "August primary"
     },
     {
@@ -1653,7 +1653,7 @@
         "status": "validated",
         "discrepancies": []
       },
-      "last_updated": "2026-01-12",
+      "last_updated": "2026-01-19",
       "notes": "August primary"
     }
   ]

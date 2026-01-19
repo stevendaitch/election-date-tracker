@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "last_updated": "2026-01-12",
+    "last_updated": "2026-01-19",
     "sources": [
       "Ballotpedia",
       "State SOS Websites"
@@ -17,27 +17,6 @@
     ]
   },
   "special_elections": [
-    {
-      "id": "FL-StateRep-87-2026",
-      "state_code": "FL",
-      "state_name": "Florida",
-      "office": "State Representative",
-      "district": "HD-87",
-      "level": "state_legislative",
-      "reason": "Vacancy",
-      "dates": {
-        "vacancy": null,
-        "primary": "2026-01-13",
-        "general": "2026-03-24",
-        "runoff": null
-      },
-      "status": "scheduled",
-      "confidence": "High",
-      "source_url": "https://dos.fl.gov/elections/for-voters/special-elections/",
-      "notes": "Primary Jan 13 general March 24",
-      "next_date": "2026-01-13",
-      "next_date_type": "primary"
-    },
     {
       "id": "FL-StateRep-51-2026",
       "state_code": "FL",
@@ -77,6 +56,27 @@
       "confidence": "High",
       "source_url": "https://dos.fl.gov/elections/for-voters/special-elections/",
       "notes": "Special primary cancelled - candidate withdrew",
+      "next_date": "2026-03-24",
+      "next_date_type": "general"
+    },
+    {
+      "id": "FL-StateRep-87-2026",
+      "state_code": "FL",
+      "state_name": "Florida",
+      "office": "State Representative",
+      "district": "HD-87",
+      "level": "state_legislative",
+      "reason": "Vacancy",
+      "dates": {
+        "vacancy": null,
+        "primary": "2026-01-13",
+        "general": "2026-03-24",
+        "runoff": null
+      },
+      "status": "scheduled",
+      "confidence": "High",
+      "source_url": "https://dos.fl.gov/elections/for-voters/special-elections/",
+      "notes": "Primary Jan 13 general March 24",
       "next_date": "2026-03-24",
       "next_date_type": "general"
     },
@@ -167,9 +167,9 @@
   ],
   "by_state": {
     "FL": [
-      "FL-StateRep-87-2026",
       "FL-StateRep-51-2026",
       "FL-StateSenate-14-2026",
+      "FL-StateRep-87-2026",
       "FL-StateRep-90-2025",
       "FL-StateSenate-11-2025"
     ],
