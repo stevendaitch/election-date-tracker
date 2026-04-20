@@ -1,43 +1,22 @@
 {
   "metadata": {
-    "last_updated": "2026-04-13",
+    "last_updated": "2026-04-20",
     "sources": [
       "Ballotpedia",
       "State SOS Websites"
     ],
     "election_count": 7,
     "by_level": {
-      "federal": 1,
-      "state_legislative": 6
+      "state_legislative": 6,
+      "federal": 1
     },
     "states_with_specials": [
-      "NJ",
       "FL",
+      "NJ",
       "AL"
     ]
   },
   "special_elections": [
-    {
-      "id": "NJ-House-11-2026",
-      "state_code": "NJ",
-      "state_name": "New Jersey",
-      "office": "U.S. House",
-      "district": "NJ-11",
-      "level": "federal",
-      "reason": "Resignation of Mikie Sherrill",
-      "dates": {
-        "vacancy": "2025-11-21",
-        "primary": null,
-        "general": null,
-        "runoff": "2026-04-16"
-      },
-      "status": "scheduled",
-      "confidence": "High",
-      "source_url": "https://nj.gov/state/elections/election-information-results.shtml",
-      "notes": "Sherrill became NJ Governor; petition deadline Feb 5 2026",
-      "next_date": "2026-04-16",
-      "next_date_type": "runoff"
-    },
     {
       "id": "FL-StateRep-90-2025",
       "state_code": "FL",
@@ -144,6 +123,27 @@
       "next_date_type": null
     },
     {
+      "id": "NJ-House-11-2026",
+      "state_code": "NJ",
+      "state_name": "New Jersey",
+      "office": "U.S. House",
+      "district": "NJ-11",
+      "level": "federal",
+      "reason": "Resignation of Mikie Sherrill",
+      "dates": {
+        "vacancy": "2025-11-21",
+        "primary": null,
+        "general": null,
+        "runoff": "2026-04-16"
+      },
+      "status": "scheduled",
+      "confidence": "High",
+      "source_url": "https://nj.gov/state/elections/election-information-results.shtml",
+      "notes": "Sherrill became NJ Governor; petition deadline Feb 5 2026",
+      "next_date": null,
+      "next_date_type": null
+    },
+    {
       "id": "AL-StateHouse-38-2025",
       "state_code": "AL",
       "state_name": "Alabama",
@@ -166,15 +166,15 @@
     }
   ],
   "by_state": {
-    "NJ": [
-      "NJ-House-11-2026"
-    ],
     "FL": [
       "FL-StateRep-90-2025",
       "FL-StateSenate-11-2025",
       "FL-StateRep-51-2026",
       "FL-StateSenate-14-2026",
       "FL-StateRep-87-2026"
+    ],
+    "NJ": [
+      "NJ-House-11-2026"
     ],
     "AL": [
       "AL-StateHouse-38-2025"
